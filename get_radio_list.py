@@ -4,7 +4,9 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import pandas as pd
-import numpy as np
+
+# 番組ページからURLリストを返すクラス
+# ラジオページから情報を返すクラス
 
 dt_now = datetime.datetime.now()
 dt_now_str = dt_now.strftime('%Y%m%d_%H%M%S')
@@ -19,6 +21,12 @@ description_list = []
 date_list = []
 mp3_url_list = []
 page_url_list = []
+
+tokumei_url_base = "https://omocoro.jp/tag/%E5%8C%BF%E5%90%8D%E3%83%A9%E3%82%B8%E3%82%AA/page/"
+mnf_url_base = ""
+onsei_url_base = ""
+ariari_url_base = ""
+news_url_base = ""
 
 base_url = "https://omocoro.jp/radio/page/"
 url_postfix = "/?sort=new"
