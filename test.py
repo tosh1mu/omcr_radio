@@ -1,6 +1,8 @@
+# -*- coding: utf-8 -*-
 import requests
 from bs4 import BeautifulSoup
 import re
+import pandas as pd
 
 base_url = "https://omocoro.jp/radio/page/"
 url_postfix = "/?sort=new"
