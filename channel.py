@@ -187,7 +187,11 @@ class Channel:
             pubdate_str = pubdate.strftime('%a, %d %b %Y %H:%M:%S JST')
             pubdate_node.appendChild(dom.createTextNode(pubdate_str))
             item.appendChild(pubdate_node)
-            
+            # mp3のURL
+            enclusure_node = dom.createElement('enclosure')
+            url_attr = dom.createAttribute('url')
+            url_attr.value = mp3_url
+            # GUID(記事URL)
         
 
         print(dom.toprettyxml())
