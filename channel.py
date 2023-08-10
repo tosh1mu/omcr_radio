@@ -184,7 +184,7 @@ class Channel:
             # 公開日の設定
             pubdate_node = dom.createElement('pubDate')
             pubdate = dt.strptime(pub_date, '%Y-%m-%d')
-            pubdate_str = pubdate.strftime('%a, %d %b %Y %H:%M:%S JST')
+            pubdate_str = pubdate.strftime('%a, %d %b %Y %H:%M:%S +0900')
             pubdate_node.appendChild(dom.createTextNode(pubdate_str))
             item.appendChild(pubdate_node)
             # mp3のURL
