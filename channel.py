@@ -22,7 +22,7 @@ class Channel:
         self._load_list_datetime = dt(1900, 1, 1, 0, 0, 0)
         self._load_episodes_datetime = dt(1900, 1, 1, 0, 0, 0)
         self._master_csv = self._abbreviation + "_master.csv"
-        self._rss_file = self._abbreviation + ".xml"
+        self._rss_file = self._abbreviation + ".rss"
     
     # ラジオページからエピソードタイトルとURLのリストを読み込む
     def get_episode_list(self):
@@ -110,7 +110,7 @@ class Channel:
         new_episode_urls = []
 
         for title, url in self._episode_dict.items():
-            if url in existing_episodes.loc['episode_url'].values:
+            if url in existing_episodes['episode_url'].values:
                 continue
             else:
                 new_ep = episode.Episode(url)
@@ -188,10 +188,21 @@ class Channel:
             pubdate_node.appendChild(dom.createTextNode(pubdate_str))
             item.appendChild(pubdate_node)
             # mp3のURL
-            enclusure_node = dom.createElement('enclosure')
+            enclosure_node = dom.createElement('enclosure')
             url_attr = dom.createAttribute('url')
-            url_attr.value = mp3_url
+            url_attr.value = str(mp3_url)
+            enclosure_node.setAttributeNode(url_attr)
+            type_attr = dom.createAttribute('type')
+            type_attr.value = "audio/mpeg"
+            enclosure_node.setAttributeNode(type_attr)
+            item.appendChild(enclosure_node)
             # GUID(記事URL)
-        
+            guid_node = dom.createElement('guid')
+            guid_node.appendChild(dom.createTextNode(str(episode_url)))
+            is_link_attr = dom.createAttribute('isPermaLink')
+            is_link_attr.value = "True"
+            guid_node.setAttributeNode(is_link_attr)
+            item.appendChild(guid_node)
 
-        print(dom.toprettyxml())
+        with open(self._rss_file, "w") as file:
+            file.write(dom.toprettyxml(indent = "  "))
