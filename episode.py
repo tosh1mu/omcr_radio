@@ -10,7 +10,7 @@ import re
 class EpisodeData:
     id: int
     title: str
-    series: str
+    channel: str
     pub_date: dt
     description: str
     mp3_url: str
@@ -23,7 +23,7 @@ class Episode:
         else:
             self._id = 0
             self._title = ""
-            self._series = ""
+            self._channel = ""
             self._pub_date = dt(1900, 1, 1, 0, 0 ,0)
             self._description = ""
             self._mp3_url = ""
@@ -38,12 +38,12 @@ class Episode:
         return self._title
     
     @property
-    def series(self):
-        return self._series
+    def channel(self):
+        return self._channel
     
-    @series.setter
-    def series(self, value):
-        self._series = value
+    @channel.setter
+    def channel(self, value):
+        self._channel = value
 
     @property
     def pub_date(self):
@@ -68,24 +68,24 @@ class Episode:
         except requests.exceptions.HTTPError:
             res.raise_for_status()
             print(res.text)
-        soup = BeautifulSoup(self._res.text, "html.parser")
+        soup = BeautifulSoup(res.text, "html.parser")
         self._id = re.findall('[0-9]+', self._url)[0]
-        self._title = soup.select('div[class="title"]')[0].text
-        self._series = ""
+        self._title = soup.select('div[class="title"]')[0].text.strip()
+        self._channel = ""
         tags = soup.select('div[class="tags"]')[0]
         tag_list = tags.find_all('a')
         for tag in tag_list:
             if tag.text != "#ラジオ":
-                self._series = tag.text.replace('#', '')
-        self._pub_date = soup.select('div[class="date"]')[0].text
+                self._channel = tag.text.replace('#', '')
+        self._pub_date = dt.strptime(soup.select('div[class="date"]')[0].text, '%Y-%m-%d')
         self._description = soup.select('div[class="description"]')[0].text
-        self._mp3_url = soup.find('a', attrs={ 'href': re.compile(r'.*.mp3') }).get('href') if page_soup.find('a', attrs={ 'href': re.compile(r'.*.mp3') }) else ''
+        self._mp3_url = soup.find('a', attrs={ 'href': re.compile(r'.*.mp3') }).get('href') if soup.find('a', attrs={ 'href': re.compile(r'.*.mp3') }) else ''
     
     def data(self):
         return EpisodeData(
             self._id,
             self._title,
-            self._series,
+            self._channel,
             self._pub_date,
             self._description,
             self._mp3_url,
