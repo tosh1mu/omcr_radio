@@ -114,7 +114,7 @@ class Channel:
                 continue
             else:
                 new_ep = episode.Episode(url)
-                new_ep_data = ep.data()
+                new_ep_data = new_ep.data()
                 print("Loading " + new_ep_data.title)
                 new_ids.append(new_ep_data.id)
                 new_channels.append(self._channel_title)
