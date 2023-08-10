@@ -14,7 +14,7 @@ class EpisodeData:
     pub_date: dt
     description: str
     mp3_url: str
-    page_url: str
+    url: str
 
 class Episode:
     def __init__(self, episode_url=""):
@@ -28,6 +28,38 @@ class Episode:
             self._description = ""
             self._mp3_url = ""
             self._url = ""
+    
+    @property
+    def id(self):
+        return self._id
+    
+    @property
+    def title(self):
+        return self._title
+    
+    @property
+    def series(self):
+        return self._series
+    
+    @series.setter
+    def series(self, value):
+        self._series = value
+
+    @property
+    def pub_date(self):
+        return self._pub_date
+    
+    @property
+    def description(self):
+        return self._description
+    
+    @property
+    def mp3_url(self):
+        return self._mp3_url
+    
+    @property
+    def url(self):
+        return self._url
             
     def load(self, episode_url):
         self._url = episode_url
@@ -48,7 +80,6 @@ class Episode:
         self._pub_date = soup.select('div[class="date"]')[0].text
         self._description = soup.select('div[class="description"]')[0].text
         self._mp3_url = soup.find('a', attrs={ 'href': re.compile(r'.*.mp3') }).get('href') if page_soup.find('a', attrs={ 'href': re.compile(r'.*.mp3') }) else ''
-        self._page_url = self._url
     
     def data(self):
         return EpisodeData(
@@ -58,5 +89,5 @@ class Episode:
             self._pub_date,
             self._description,
             self._mp3_url,
-            self._page_url
+            self._url
         )
