@@ -120,7 +120,7 @@ class Channel:
                 new_channels.append(self._channel_title)
                 new_titles.append(new_ep_data.title)
                 new_descriptions.append(new_ep_data.description)
-                new_pub_dates.append(new_ep_data.pub_date)
+                new_pub_dates.append(new_ep_data.pub_date.strftime('%Y-%m-%d'))
                 new_mp3_urls.append(new_ep_data.mp3_url)
                 new_episode_urls.append(url)
         
