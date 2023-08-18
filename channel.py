@@ -128,7 +128,7 @@ class Channel:
 
         if len(new_ids) > 0:
             new_episodes = pd.DataFrame(
-                {'channes': new_channels,
+                {'channel': new_channels,
                  'title': new_titles,
                  'description': new_descriptions,
                  'pub_date': new_pub_dates,
