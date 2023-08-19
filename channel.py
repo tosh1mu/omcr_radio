@@ -22,7 +22,7 @@ class Channel:
         self._load_list_datetime = dt(1900, 1, 1, 0, 0, 0)
         self._load_episodes_datetime = dt(1900, 1, 1, 0, 0, 0)
         self._master_csv = "csv/" + self._abbreviation + "_master.csv"
-        self._rss_file = "rss/" + self._abbreviation + ".rss"
+        self._rss_file = "docs/" + self._abbreviation + ".rss"
     
     # ラジオページからエピソードタイトルとURLのリストを読み込む
     def get_episode_list(self):
