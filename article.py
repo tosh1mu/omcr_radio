@@ -74,7 +74,8 @@ class Article:
         if soup.find('a', attrs={ 'href': re.compile(r'.*.mp3') }):
             for result in soup.find_all('a', attrs={ 'href': re.compile(r'.*.mp3') }):
                 mp3_url = result.get('href')
-                self._mp3_urls.append(mp3_url)
+                if mp3_url not in self._mp3_urls:
+                    self._mp3_urls.append(mp3_url)
         
         print('Article loaded: ' + self._title + '.')
         return True
