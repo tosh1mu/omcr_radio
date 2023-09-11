@@ -12,8 +12,8 @@ tokumei_channel = channel.Channel(
     img_src + "tokumei_logo.jpg",
     "https://omocoro.jp/tag/%E5%8C%BF%E5%90%8D%E3%83%A9%E3%82%B8%E3%82%AA/page/"
 )
-tokumei_channel.refresh()
-# tokumei_channel.update()
+# tokumei_channel.refresh()
+tokumei_channel.update()
 tokumei_channel.make_rss()
 
 onsei_channel = channel.Channel(
@@ -25,8 +25,8 @@ onsei_channel = channel.Channel(
     img_src + "onsei_logo.jpg",
     "https://omocoro.jp/tag/%E9%9F%B3%E5%A3%B0%E6%94%BE%E9%80%81/page/"
 )
-onsei_channel.refresh()
-# onsei_channel.update()
+# onsei_channel.refresh()
+onsei_channel.update()
 onsei_channel.make_rss()
 
 mnf_channel = channel.Channel(
@@ -64,6 +64,6 @@ ariari_channel = channel.Channel(
     img_src + "ariari_logo.jpg",
     "https://omocoro.jp/tag/%E3%81%82%E3%82%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%81%82%E3%82%8A%E3%82%A2%E3%83%AF%E3%83%BC/page/"
 )
-ariari_channel.refresh()
-# ariari_channel.update()
+# ariari_channel.refresh()
+ariari_channel.update()
 ariari_channel.make_rss()
