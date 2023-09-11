@@ -16,17 +16,16 @@ class Episode:
 
 class Article:
     def __init__(self, url=""):
+        self._id = 0
+        self._title = ""
+        self._pub_date = dt(1900, 1, 1, 0, 0 ,0)
+        self._description = ""
+        self._tags = []
+        self._mp3_urls = []
+        self._url = ""
         if len(url) > 0:
             self.load(url)
-        else:
-            self._id = 0
-            self._title = ""
-            self._pub_date = dt(1900, 1, 1, 0, 0 ,0)
-            self._description = ""
-            self._tags = []
-            self._mp3_urls = []
-            self._url = ""
-    
+            
     @property
     def id(self):
         return self._id
@@ -63,7 +62,7 @@ class Article:
             res.raise_for_status()
             print(res.text)
         soup = BeautifulSoup(res.text, "html.parser")
-        self._id = re.findall('[0-9]+', self._url)[0]
+        self._id = int(re.findall('[0-9]+', self._url)[0])
         self._title = soup.select('div[class="title"]')[0].text.strip()
         tags = soup.select('div[class="tags"]')[0]
         tag_list = tags.find_all('a')
@@ -73,7 +72,9 @@ class Article:
         self._pub_date = dt.strptime(soup.select('div[class="date"]')[0].text, '%Y-%m-%d')
         self._description = soup.select('div[class="description"]')[0].text
         if soup.find('a', attrs={ 'href': re.compile(r'.*.mp3') }):
-            self._mp3_urls = soup.find_all('a', attrs={ 'href': re.compile(r'.*.mp3') }).get('href')
+            for result in soup.find_all('a', attrs={ 'href': re.compile(r'.*.mp3') }):
+                mp3_url = result.get('href')
+                self._mp3_urls.append(mp3_url)
         
         print('Article loaded: ' + self._title + '.')
         return True
@@ -86,7 +87,7 @@ class Article:
         i = 1
         for mp3_url in self._mp3_urls:
             episode = Episode(
-                self._id*10 + i,
+                self._id * 10 + i,
                 self._title,
                 self._pub_date,
                 self._description,

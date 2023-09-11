@@ -89,7 +89,14 @@ class Channel:
         eps = pd.read_csv(self._master_csv, encoding='utf8', index_col=0)
 
         for id, title, pub_date, description, mp3_url, article_url in zip(eps.index, eps['title'], eps['pub_date'], eps['description'], eps['mp3_url'], eps['article_url']):
-            ep = article.Episode(id, title, pub_date, description, mp3_url, article_url)
+            ep = article.Episode(
+                int(id),
+                title,
+                dt.strptime(pub_date, '%Y-%m-%d'),
+                description,
+                mp3_url,
+                article_url
+                )
             self._episodes.append(ep)
 
         return True
@@ -113,7 +120,7 @@ class Channel:
             descriptions.append(ep.description)
             pub_dates.append(ep.pub_date)
             mp3_urls.append(ep.mp3_url)
-            article_urls.append(ep.url)
+            article_urls.append(ep.article_url)
                             
         episodes_df = pd.DataFrame(
             {'channel': channels,
@@ -194,8 +201,7 @@ class Channel:
             item.appendChild(description_node)
             # 公開日の設定
             pubdate_node = dom.createElement('pubDate')
-            pubdate = dt.strptime(episode.pub_date, '%Y-%m-%d')
-            pubdate_str = pubdate.strftime('%a, %d %b %Y %H:%M:%S +0900')
+            pubdate_str = episode.pub_date.strftime('%a, %d %b %Y %H:%M:%S +0900')
             pubdate_node.appendChild(dom.createTextNode(pubdate_str))
             item.appendChild(pubdate_node)
             # mp3のURL
