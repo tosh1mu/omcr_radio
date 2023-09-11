@@ -79,7 +79,7 @@ class Channel:
     def load_article(self, url):
         atcl = article.Article(url)
         for ep in atcl.episodes():
-            if self.check_episode_duplication(ep) is False:
+            if ep not in self._episodes:
                 self._episodes.append(ep)
         
         return True
@@ -97,7 +97,8 @@ class Channel:
                 mp3_url,
                 article_url
                 )
-            self._episodes.append(ep)
+            if ep not in self._episodes:
+                self._episodes.append(ep)
 
         return True
     
