@@ -39,8 +39,8 @@ mnf_channel = channel.Channel(
     "https://omocoro.jp/tag/%E3%83%A2%E3%83%B3%E3%82%B4%E3%83%AB%E3%83%8A%E3%82%A4%E3%83%88%E3%83%95%E3%82%A3%E3%83%BC%E3%83%90%E3%83%BC/page/"
 )
 # mnf_channel.refresh()
-# mnf_channel.update()
-# mnf_channel.make_rss()
+mnf_channel.update()
+mnf_channel.make_rss()
 
 now_channel = channel.Channel(
     "NOW",
@@ -64,6 +64,6 @@ ariari_channel = channel.Channel(
     img_src + "ariari_logo.jpg",
     "https://omocoro.jp/tag/%E3%81%82%E3%82%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%81%82%E3%82%8A%E3%82%A2%E3%83%AF%E3%83%BC/page/"
 )
-ariari_channel.refresh()
-# ariari_channel.update()
+# ariari_channel.refresh()
+ariari_channel.update()
 ariari_channel.make_rss()
