@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from dataclasses import dataclass
 from datetime import datetime as dt
+import datetime
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -90,7 +91,7 @@ class Article:
             episode = Episode(
                 self._id * 10 + i,
                 self._title,
-                self._pub_date,
+                self._pub_date + datetime.timedelta(seconds=i),
                 self._description,
                 mp3_url,
                 self._url

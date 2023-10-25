@@ -77,6 +77,6 @@ kamamiku_channel = channel.Channel(
     img_src + "kamamiku_logo.jpg",
     "https://omocoro.jp/tag/%E3%81%8B%E3%81%BE%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%8F%E3%81%AE%E3%81%97%E3%82%93/page/"
 )
-# kamamiku_channel.refresh()
-kamamiku_channel.update()
+kamamiku_channel.refresh()
+# kamamiku_channel.update()
 kamamiku_channel.make_rss()
