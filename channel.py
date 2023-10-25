@@ -92,7 +92,7 @@ class Channel:
             ep = article.Episode(
                 int(id),
                 title,
-                dt.strptime(pub_date, '%Y-%m-%d'),
+                dt.strptime(pub_date, '%Y-%m-%d %H:%M:%S'),
                 description,
                 mp3_url,
                 article_url
