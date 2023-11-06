@@ -80,3 +80,16 @@ kamamiku_channel = channel.Channel(
 # kamamiku_channel.refresh()
 kamamiku_channel.update()
 kamamiku_channel.make_rss()
+
+shimowata_channel = channel.Channel(
+    "Shimoda Watashi",
+    "shimowata",
+    "namikibashi1987@gmail.com",
+    "Shimoda Watashi",
+    "Just personal use.",
+    img_src + "shimowata_logo.jpg",
+    "https://omocoro.jp/tag/%e3%82%b7%e3%83%a2%e3%83%80%e3%83%86%e3%83%84%e3%83%a4%e3%81%a8%e7%a7%81%ef%bc%88%e3%83%a8%e3%83%83%e3%83%94%e3%83%bc%ef%bc%89/page/"
+)
+# shimowata_channel.refresh()
+shimowata_channel.update()
+shimowata_channel.make_rss()
