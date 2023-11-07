@@ -32,8 +32,8 @@ class Channel:
         page = 1
         flag = True
         while flag is True:
-            # url = self._channel_url + str(page) + "/"
-            url = self._channel_url + str(page) + "/?sort=old"
+            url = self._channel_url + str(page) + "/"
+            # url = self._channel_url + str(page) + "/?sort=old"
             print("Getting episode list from " + urllib.parse.unquote(url) + "...")
             try:
                 res = requests.get(url)
