@@ -9,19 +9,19 @@ class OmcrRadioMaster:
         return True
     
     ## DB上にラジオページが登録されているか判定する
-    def exist_page(self, page_url):
+    def check_page(self, page_url):
         return True
     
     ## DB上にmp3が登録されているか判定する
-    def exist_mp3(self, mp3_url):
+    def check_mp3(self, mp3_url):
         return True
     
     ## mp3を登録する
-    def regist_mp3(self, mp3_url):
+    def append_mp3(self, mp3_url):
         return True
 
     ## ラジオページを登録する
-    def regist_page(self, page_url):
+    def append_page(self, page_url):
         return True
     
     ## 全ラジオをアップデートする
