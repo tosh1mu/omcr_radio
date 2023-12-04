@@ -44,6 +44,13 @@ class OmcrRadioMaster:
     def create_rss_active(self, tag):
         return True
     
+    ## 
+    def load_xlsx(self, db_file, channel_sheet = 'channel', radiopage_sheet = 'radio_page', mp3_sheet = 'mp3'):
+        channel_df = pd.read_excel(db_file, sheet_name=channel_sheet, index_col=0)
+        radiopage_df = pd.read_excel(db_file, sheet_name=radiopage_sheet, index_col=0)
+        mp3_df = pd.read_excel(db_file, sheet_name=mp3_sheet, index_col=0)
+        return True
+    
     ## DBに書き出す
     def save(self):
         return True
