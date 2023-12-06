@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from dataclasses import dataclass
 from datetime import datetime as dt
+import datetime
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -56,6 +57,7 @@ class RadioPage:
     def url(self):
         return self._url
     
+    ## ラジオページの内容を読み込む
     def load_url(self, url):
         self._url = url
         try:
@@ -69,8 +71,7 @@ class RadioPage:
         tags = soup.select('div[class="tags"]')[0]
         tag_list = tags.find_all('a')
         for tag in tag_list:
-            if tag.text != "#ラジオ":
-                self._tags.append(str(tag))
+            self._tags.append(str(tag))
         self._pub_date = dt.strptime(soup.select('div[class="date"]')[0].text, '%Y-%m-%d')
         self._description = str(soup.select('div[class="description"]')[0].text)
         if soup.find('a', attrs={ 'href': re.compile(r'.*.mp3') }):
@@ -81,19 +82,38 @@ class RadioPage:
         
         print('A Radio Page loaded: ' + self._title + '.')
         return True
+
+    ## ラジオページに含まれるエピソードをリストで返す
+    def get_episodes(self):
+        episode_list = []
+        i = 1
+        for mp3_url in self._mp3_urls:
+            episode = Episode(
+                self._id * 10 + i,
+                self._title,
+                self._pub_date + datetime.timedelta(secondes=i),
+                self._description,
+                mp3_url,
+                self._url
+            )
+            episode_list.append(episode)
+            i += 1
+        return episode_list
     
-## 
-class ListPage:
-    def __init__(self, base_url, page = 1, sort = "new", link_pattern = r''):
+## 記事リストページを扱うクラス
+class ArticleList:
+    def __init__(self, base_url, page = 1, sort = "new"):
         self._page_url = base_url + "page/" + page + "/?sort=" + sort
-        self._link_dict = {}
-        self.get_list(link_pattern)
+        self._link_dict = {} # 記事のタイトル：URL
+        self._datetime_dict = {} # 記事のURL：日時
+        self.get_list()
     
     @property
     def url(self):
         return self._page_url
     
-    def get_list(self, pattern = r''):
+    ## 記事リストページ内にある記事URLを取得
+    def get_list(self):
         try:
             res = requests.get(self._page_url)
         except requests.exceptions.HTTPError:
@@ -105,7 +125,7 @@ class ListPage:
         boxes = soup.select('div[class="box"]')
         if len(boxes) > 0:
             for box in boxes:
-                links = box.find_all('a', attrs = {'href': pattern})
+                links = box.find_all('a', attrs = {'href': re.compile(r'^(https://omocoro.jp/).*[0-9]+')})
                 if len(links) < 2:
                     continue
                 else:
@@ -114,5 +134,21 @@ class ListPage:
                     self._link_dict[title] = url
         return True
     
-    def links(self):
-        return list(self._link_dict.values())
+    ## 記事リストページ内にある記事URLのリストを返す
+    def link_dict(self):
+        return list(self._link_dict)
+
+## 指定タグを扱うクラス
+class Tag:
+    def __init__(self, tag):
+        self._tag = tag
+        self._base_url = 'https://omocoro.jp/tag/' + self._tag
+        self._article_dict = {}
+        self._load_list_datetime = dt.now()
+        return True
+    
+    ## 記事を全部取得する
+    def refresh(self):
+        return True
+    
+    ## 記事の最新版を取得する
