@@ -19,16 +19,20 @@ class Episode:
 ## オモコロラジオの記事ページを扱うクラス
 class RadioPage:
     def __init__(self, url=""):
+        self._url = ""
         self._id = 0
         self._title = ""
         self._pub_date = dt(1900, 1, 1, 0, 0 ,0)
         self._description = ""
         self._tags = []
         self._mp3_urls = []
-        self._url = ""
         if len(url) > 0:
-            self.load_url(url)
-    
+            self.set_url(url)
+
+    @property
+    def url(self):
+        return self._url
+
     @property
     def id(self):
         return self._id
@@ -52,14 +56,28 @@ class RadioPage:
     @property
     def mp3_urls(self):
         return self._mp3_urls
+
+    ## オモコロのリンクかどうかを確認する
+    def check_url(self, url):
+        res = re.match(r'^(https://omocoro.jp/).*[0-9]+', url)
+        if res:
+            return True
+        else:
+            return False
     
-    @property
-    def url(self):
-        return self._url
-    
+    ## URLを設定し、ページの内容を読み込む
+    def set_url(self, url):
+        genuine = self.check_url(url)
+        if genuine:
+            self._url = url
+            self.load_page()
+            return True
+        else:
+            print('Invalid URL: ' + url)
+            return False
+
     ## ラジオページの内容を読み込む
-    def load_url(self, url):
-        self._url = url
+    def load_page(self):
         try:
             res = requests.get(self._url)
         except requests.exceptions.HTTPError:
@@ -80,7 +98,7 @@ class RadioPage:
                 if mp3_url not in self._mp3_urls:
                     self._mp3_urls.append(mp3_url)
         
-        print('A Radio Page loaded: ' + self._title + '.')
+        print(str(len(self._mp3_urls)) + ' mp3(s) found from ' + self._title + '.')
         return True
 
     ## ラジオページに含まれるエピソードをリストで返す
@@ -103,52 +121,83 @@ class RadioPage:
 ## 記事リストページを扱うクラス
 class ArticleList:
     def __init__(self, base_url, page = 1, sort = "new"):
-        self._page_url = base_url + "page/" + page + "/?sort=" + sort
-        self._link_dict = {} # 記事のタイトル：URL
-        self._datetime_dict = {} # 記事のURL：日時
-        self.get_list()
+        self._page_url = base_url + "page/" + str(page) + "/?sort=" + sort
+        self._links = self.get_links() # 記事のタイトル：URL
     
     @property
     def url(self):
         return self._page_url
+
+    @property
+    def links(self):
+        return self._links
     
     ## 記事リストページ内にある記事URLを取得
-    def get_list(self):
+    def get_links(self):
+        links = []
         try:
             res = requests.get(self._page_url)
         except requests.exceptions.HTTPError:
             res.raise_for_status()
             print(res.text)
-            return False
-        print("Getting links from " + urllib.parse.unquote(url) + "...")
+            return links
         soup = BeautifulSoup(res.text, "html.parser")
         boxes = soup.select('div[class="box"]')
         if len(boxes) > 0:
             for box in boxes:
-                links = box.find_all('a', attrs = {'href': re.compile(r'^(https://omocoro.jp/).*[0-9]+')})
-                if len(links) < 2:
-                    continue
-                else:
-                    url = links[0].get('href')
-                    title = str(links[1].text)
-                    self._link_dict[title] = url
-        return True
-    
-    ## 記事リストページ内にある記事URLのリストを返す
-    def link_dict(self):
-        return list(self._link_dict)
+                category = box.select_one('div[class="category"]').select_one("span").text
+                date = dt.strptime(box.select_one('div[class="date"]').text, '%Y.%m.%d')
+                title = box.select_one('div[class="title"]').select_one("a").text
+                link = box.select_one('div[class="title"]').find('a').get('href')
+                links.append((category, date, title, link))
+        print(str(len(links)) + ' link(s) found from ' + urllib.parse.unquote(self._page_url) + '.')
+        return links
 
 ## 指定タグを扱うクラス
-class Tag:
+class TagHandler:
     def __init__(self, tag):
         self._tag = tag
-        self._base_url = 'https://omocoro.jp/tag/' + self._tag
+        self._base_url = 'https://omocoro.jp/tag/' + self._tag + '/'
         self._article_dict = {}
-        self._load_list_datetime = dt.now()
+        self._last_update = dt(1900, 1, 1, 0, 0 ,0)
+    
+    ## 指定のページ内にある記事を取得する
+    def get(self, page = 1, sort = "new"):
+        article_list = ArticleList(self._base_url, page, sort)
+        links = article_list.links
+        if len(links) < 1:
+            return False
+        for link in links:
+            if (link[0] == 'ラジオ') and (link[1] > self._last_update):
+                title = link[2]
+                radio_page = RadioPage(link[3])
+                if title not in self._article_dict.keys():
+                    self._article_dict[title] = radio_page
+        return True
+    
+    ## 記事の最新版を取得する
+    def update(self, max_page = 1):
+        page = 1
+        update_dt = dt.now()
+        while page <= max_page:
+            self.get(page)
+            page += 1
+        self._last_update = update_dt
+        return True
+    
+    ## 新しい順に全数取得する
+    def get_all(self, sort = "new"):
+        flag = True
+        page = 1
+        update_dt = dt.now()
+        while flag is True:
+            flag = self.get(page, sort)
+            page += 1
+        self._last_update = update_dt
         return True
     
     ## 記事を全部取得する
     def refresh(self):
+        self.get_all("old")
+        self.get_all("new")
         return True
-    
-    ## 記事の最新版を取得する
