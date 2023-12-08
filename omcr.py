@@ -1,11 +1,15 @@
 # -*- coding: utf-8 -*-
 from dataclasses import dataclass
+from functools import total_ordering
 from datetime import datetime as dt
 import datetime
 import requests
 from bs4 import BeautifulSoup
 import re
 import urllib.parse
+import hashlib
+import pandas as pd
+import os
 
 ## エピソードを扱うクラス
 @dataclass(frozen = True, order = True)
@@ -17,6 +21,7 @@ class Episode:
     article_url: str
 
 ## オモコロラジオの記事ページを扱うクラス
+@total_ordering
 class RadioPage:
     def __init__(self, url=""):
         self._url = ""
@@ -29,7 +34,14 @@ class RadioPage:
         if len(url) > 0:
             self.set_url(url)
     
+    def __eq__(self, other):
+        if not isinstance(other, RadioPage):
+            return NotImplemented
+        return self.id == other.id
+    
     def __lt__(self, other):
+        if not isinstance(other, RadioPage):
+            return NotImplemented
         return self.id < other.id
 
     @property
@@ -110,9 +122,8 @@ class RadioPage:
         i = 1
         for mp3_url in self._mp3_urls:
             episode = Episode(
-                self._id * 10 + i,
                 self._title,
-                self._pub_date + datetime.timedelta(secondes=i),
+                self._pub_date + datetime.timedelta(seconds=i),
                 self._description,
                 mp3_url,
                 self._url
@@ -160,51 +171,94 @@ class ArticleList:
 class TagHandler:
     def __init__(self, tag):
         self._tag = tag
+        self._pickle_name = str(hashlib.md5(self._tag.encode()).hexdigest()) + '.pkl'
         self._base_url = 'https://omocoro.jp/tag/' + self._tag + '/'
         self._articles = []
-        self._last_update = dt(1900, 1, 1, 0, 0 ,0)
+
+    @property    
+    def pickle_name(self):
+        return self._pickle_name
+    
+    @property
+    def articles(self):
+        return self._articles
     
     def sort(self):
         self._articles = sorted(self._articles)
         return True
     
+    def check_url(self, url):
+        exist = False
+        for article in self._articles:
+            if article.url == url:
+                exist = True
+        return exist
+
     ## 指定のページ内にある記事を取得する
     def get(self, page = 1, sort = "new"):
         article_list = ArticleList(self._base_url, page, sort)
         links = article_list.links
+        add_count = 0
         if len(links) < 1:
-            return False
+            return (0, 0)
         for link in links:
-            if (link[0] == 'ラジオ') and (link[1] > self._last_update):
-                title = link[2]
+            title = link[2]
+            url = link[3]
+            exist = self.check_url(url)
+            if not exist:
                 radio_page = RadioPage(link[3])
-                if radio_page not in self._articles:
-                    self._articles.append(radio_page)
-        return True
+                self._articles.append(radio_page)
+                add_count += 1
+        return (len(links), add_count)
     
-    ## 記事の最新版を取得する
-    def update(self, max_page = 1):
+    ## ページ数を指定して、記事を取得する
+    def get_pages(self, max_page = 1):
         page = 1
-        update_dt = dt.now()
         while page <= max_page:
             self.get(page)
             page += 1
-        self._last_update = update_dt
         return True
     
-    ## 新しい順に全数取得する
+    def update(self):
+        continue_flag = True
+        page = 1
+        while continue_flag is True:
+            get_count = self.get(page, "new")
+            if get_count[0] > get_count[1]:
+                continue_flag = False
+            page += 1
+        self.sort()
+        return True
+    
+    ## ソート順に、取得できなくなるまで全部取得する
     def get_all(self, sort = "new"):
         flag = True
         page = 1
-        update_dt = dt.now()
         while flag is True:
-            flag = self.get(page, sort)
+            get_count = self.get(page, sort)
+            if get_count[0] < 1:
+                flag = False
             page += 1
-        self._last_update = update_dt
+        self.sort()
         return True
     
     ## 記事を全部取得する
     def refresh(self):
         self.get_all("old")
-        self.get_all("new")
+        self.update()
         return True
+    
+    def save(self, dir = "pickles/"):
+        pickle_path = dir + self._pickle_name
+        pd.to_pickle(self, pickle_path)
+        return True
+    
+    def load(self, dir = "pickles/"):
+        pickle_path = dir + self._pickle_name
+        pickle_exist = os.path.isfile(pickle_path)
+        if pickle_exist is True:
+            loaded = pd.read_pickle(pickle_path)
+            self._articles = loaded.articles
+            return True
+        else:
+            return False
