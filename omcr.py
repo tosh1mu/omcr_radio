@@ -28,6 +28,9 @@ class RadioPage:
         self._mp3_urls = []
         if len(url) > 0:
             self.set_url(url)
+    
+    def __lt__(self, other):
+        return self.id < other.id
 
     @property
     def url(self):
@@ -158,8 +161,12 @@ class TagHandler:
     def __init__(self, tag):
         self._tag = tag
         self._base_url = 'https://omocoro.jp/tag/' + self._tag + '/'
-        self._article_dict = {}
+        self._articles = []
         self._last_update = dt(1900, 1, 1, 0, 0 ,0)
+    
+    def sort(self):
+        self._articles = sorted(self._articles)
+        return True
     
     ## 指定のページ内にある記事を取得する
     def get(self, page = 1, sort = "new"):
@@ -171,8 +178,8 @@ class TagHandler:
             if (link[0] == 'ラジオ') and (link[1] > self._last_update):
                 title = link[2]
                 radio_page = RadioPage(link[3])
-                if title not in self._article_dict.keys():
-                    self._article_dict[title] = radio_page
+                if radio_page not in self._articles:
+                    self._articles.append(radio_page)
         return True
     
     ## 記事の最新版を取得する
