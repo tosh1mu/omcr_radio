@@ -1,0 +1,383 @@
+<?xml version="1.0" ?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+                              
+  <channel>
+                                    
+    <title>Pakupaku Radio</title>
+                                    
+    <itunes:owner>
+                                          
+      <itunes:email>namikibashi1987@gmail.com</itunes:email>
+                                      
+    </itunes:owner>
+                                    
+    <itunes:author>Namikibashi</itunes:author>
+                                    
+    <description>Just personal use.</description>
+                                    
+    <itunes:image href="https://tosh1mu.github.io/omcr_radio/img/pakupaku_logo.jpg"/>
+                                    
+    <language>ja-jp</language>
+                                    
+    <link>https://omocoro.jp/tag/パクパクラジオ</link>
+                                
+    <item>
+      <title>【001】たかや・マンスーンのパクパクラジオ「お互いのことを僕たちはまだ知らない」</title>
+      <description>今週から&quot;たかや&quot;と&quot;マンスーン&quot;がラジオを始めます。</description>
+      <pubDate>Tue, 20 Mar 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/001/001.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/134904/</guid>
+    </item>
+    <item>
+      <title>【002】たかや・マンスーンのパクパクラジオ「おれがたかやであいつがまんすーんで」</title>
+      <description>コーナーが始まるらしい。</description>
+      <pubDate>Tue, 27 Mar 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/002/002.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/135603/</guid>
+    </item>
+    <item>
+      <title>【003】たかや・マンスーンのパクパクラジオ「まるで僕らはトイザらスキッズ」</title>
+      <description>コロコロとボンボン</description>
+      <pubDate>Tue, 03 Apr 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/003/003.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/136333/</guid>
+    </item>
+    <item>
+      <title>【004】たかや・マンスーンのパクパクラジオ「語れ！ジャンプ！」</title>
+      <description>みんなおいでよ、俺たちのパクラジへ</description>
+      <pubDate>Tue, 10 Apr 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/004/004.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/137170/</guid>
+    </item>
+    <item>
+      <title>【005】たかや・マンスーンのパクパクラジオ「何てコトない名前が かけがえないの」</title>
+      <description>ライターはそう言うけれど いまいちピンとこないよ</description>
+      <pubDate>Tue, 17 Apr 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/005/005.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/137832/</guid>
+    </item>
+    <item>
+      <title>【006】たかや・マンスーンのパクパクラジオ「たかやのカス飯は世界一」</title>
+      <description>たかやとマンスーンが「ごはんに合うお菓子」を食べました。</description>
+      <pubDate>Tue, 24 Apr 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/006/006.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/138365/</guid>
+    </item>
+    <item>
+      <title>【007】たかや・マンスーンのパクパクラジオ「あげくの果てのインスタグラム」</title>
+      <description>それがインスタグラムだと思っている。</description>
+      <pubDate>Tue, 01 May 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/007/007.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/138955/</guid>
+    </item>
+    <item>
+      <title>【008】たかや・マンスーンのパクパクラジオ「誰もが理想のＶＲ探してる」</title>
+      <description>マンスーンがアダルトVRを体験しました</description>
+      <pubDate>Tue, 08 May 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/008/008.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/139307/</guid>
+    </item>
+    <item>
+      <title>【009】たかや・マンスーンのパクパクラジオ「その男、絵本作家につき」</title>
+      <description>即興で売れる絵本を考えることはできるのか！？</description>
+      <pubDate>Tue, 15 May 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/009/009.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/140114/</guid>
+    </item>
+    <item>
+      <title>【010】たかや・マンスーンのパクパクラジオ「パクパクラジオのことはぜんぶちゃんと覚えてる？」</title>
+      <description>おかげ様でパクパクラジオも放送第10回を迎えることが出来ました。今回は「たかや、マンスーンお互いのことをどれくらい知れたのかクイズ！」をやりました。</description>
+      <pubDate>Tue, 22 May 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/010/010.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/140984/</guid>
+    </item>
+    <item>
+      <title>【011】たかや・マンスーンのパクパクラジオ「バイトするのは今ではない」</title>
+      <description>「こんなアルバイトは嫌だ。どんなバイト？」 </description>
+      <pubDate>Tue, 29 May 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/011/011.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/141460/</guid>
+    </item>
+    <item>
+      <title>【012】たかや・マンスーンのパクパクラジオ「マンスーンルームへようこそ」</title>
+      <description>Welcome to ようこそジャパリマンスンパーク</description>
+      <pubDate>Tue, 05 Jun 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/012/012.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/141953/</guid>
+    </item>
+    <item>
+      <title>【013】たかや・マンスーンのパクパクラジオ「ARu/オモコロを、君に」</title>
+      <description>こんにちはARuFaです</description>
+      <pubDate>Tue, 12 Jun 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/013/013.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/142688/</guid>
+    </item>
+    <item>
+      <title>【014】たかや・マンスーンのパクパクラジオ「じゃじゃ馬Wear To Go 」</title>
+      <description>夏の魔物</description>
+      <pubDate>Tue, 19 Jun 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/014/014.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/143594/</guid>
+    </item>
+    <item>
+      <title>【015】たかや・マンスーンのパクパクラジオ「僕らは今日までの無職 覚えてるか忘れたか」</title>
+      <description>無職の一日は長い。</description>
+      <pubDate>Tue, 26 Jun 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/015/015.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/144215/</guid>
+    </item>
+    <item>
+      <title>【015】たかや・マンスーンのパクパクラジオ「僕らは今日までの無職 覚えてるか忘れたか」</title>
+      <description>無職の一日は長い。</description>
+      <pubDate>Tue, 26 Jun 2018 00:00:02 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/015-2/015-2.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/144215/</guid>
+    </item>
+    <item>
+      <title>【016】たかや・マンスーンのパクパクラジオ「さわやかに捧ぐ」</title>
+      <description>http://www.genkotsu-hb.com/</description>
+      <pubDate>Tue, 03 Jul 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/016/016.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/144862/</guid>
+    </item>
+    <item>
+      <title>【017】たかや・マンスーンのパクパクラジオ「素振りの向こう側へ！」</title>
+      <description>素振りの先には何が見えるのかしら？</description>
+      <pubDate>Tue, 10 Jul 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/017/017.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/145639/</guid>
+    </item>
+    <item>
+      <title>【018】たかや・マンスーンのパクパクラジオ「酒と泪と合宿とエゴサ」</title>
+      <description>オモコロ合宿にいきました</description>
+      <pubDate>Tue, 17 Jul 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/018/018.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/146371/</guid>
+    </item>
+    <item>
+      <title>【019】たかや・マンスーンのパクｐ「緊急特番」</title>
+      <description>特別番組</description>
+      <pubDate>Tue, 24 Jul 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/019/019.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/146838/</guid>
+    </item>
+    <item>
+      <title>【020】たかや・マンスーンのパクパクラジオ「海まで何分？」</title>
+      <description>海まで歩いてみよう</description>
+      <pubDate>Tue, 31 Jul 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/020/020.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/147670/</guid>
+    </item>
+    <item>
+      <title>【021】たかや・マンスーンのパクパクラジオ「山はまたのぼりくりかえす」</title>
+      <description>登るぞ 登るぞ 登るぞ 登るぞ 登るぞ 登るぞ 登るぞ 登るぞ 登るぞ 登るぞ 登るぞ 登るぞ </description>
+      <pubDate>Tue, 07 Aug 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/021/021.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/148603/</guid>
+    </item>
+    <item>
+      <title>【022】たかや・マンスーンのパクパクラジオ「僕らのノーゲーム」</title>
+      <description>夏なので花火してもいいですか？</description>
+      <pubDate>Tue, 14 Aug 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/022/022.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/149021/</guid>
+    </item>
+    <item>
+      <title>【023】たかや・マンスーンのパクパクラジオ「パクパクラジオの無職怪談ナイト」</title>
+      <description>今回のパクパクラジオはホラー回です。「無職の怖い話」を話しました。</description>
+      <pubDate>Tue, 21 Aug 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/023/023.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/149229/</guid>
+    </item>
+    <item>
+      <title>【024】たかや・マンスーンのパクパクラジオ「第24話 のんのんびより劇場版を観にいった」</title>
+      <description>沖縄行きて〜〜〜〜。</description>
+      <pubDate>Tue, 28 Aug 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/024/024.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/149787/</guid>
+    </item>
+    <item>
+      <title>【025】たかや・マンスーンのパクパクラジオ「郵便局員は魔法をかけた素敵な願いを込めた」</title>
+      <description>皆さんの「心が動いた瞬間」を紹介しました</description>
+      <pubDate>Tue, 04 Sep 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/025/025.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/151068/</guid>
+    </item>
+    <item>
+      <title>【026】たかや・マンスーンのパクパクラジオ「ミラノ風ドリアをあつめて」</title>
+      <description>架空のサイゼリヤ → ナイゼリヤ</description>
+      <pubDate>Tue, 11 Sep 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/026/026.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/151537/</guid>
+    </item>
+    <item>
+      <title>【027】たかや・マンスーンのパクパクラジオ「ナチュラルに話して」</title>
+      <description>ナチュラルに話をしてよ。 ねぇ。</description>
+      <pubDate>Tue, 18 Sep 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/027/027.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/152448/</guid>
+    </item>
+    <item>
+      <title>【028】たかや・マンスーンのパクパクラジオ「OKOってハニー」</title>
+      <description>どういうことだよ！！！！！</description>
+      <pubDate>Tue, 25 Sep 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/028/028.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/153419/</guid>
+    </item>
+    <item>
+      <title>【029】たかや・マンスーンのパクパクラジオ「おしえて！マンスーンちゃん」</title>
+      <description>マンスーンの素性を暴きます！</description>
+      <pubDate>Tue, 02 Oct 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/029/029.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/154274/</guid>
+    </item>
+    <item>
+      <title>【030】たかや・マンスーンのパクパクラジオ「答えとさよならを教えて」</title>
+      <description>ちゃんと答えて！！！</description>
+      <pubDate>Tue, 09 Oct 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/030/030.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/154748/</guid>
+    </item>
+    <item>
+      <title>【031】たかや・マンスーンのパクパクラジオ「トレンド！知らない！子豚大好き！」</title>
+      <description>インターネットで生きてこうとしてるのに、あまりにもインターネットの話題を知らないたかや。今回は、たかやが何を知っていて何を知らないかを明らかにするために『最近のトレンドちゃんと知ってるのかクイズ』をやります。</description>
+      <pubDate>Tue, 16 Oct 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/031/031.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/154944/</guid>
+    </item>
+    <item>
+      <title>【032】たかや・マンスーンのパクパクラジオ「まじメニメニマニマニ」</title>
+      <description>記事作りの&quot;&quot;裏側&quot;&quot;をいろいろと話します。</description>
+      <pubDate>Tue, 23 Oct 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/032/032.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/155513/</guid>
+    </item>
+    <item>
+      <title>【033】たかや・マンスーンのパクパクラジオ「予算500円/たまには遠足のおやつの話をしてもいいですか」</title>
+      <description>大人が本気で「遠足のおやつ」を選びました</description>
+      <pubDate>Tue, 30 Oct 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/033/pak033.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/156204/</guid>
+    </item>
+    <item>
+      <title>【034】たかや・マンスーンのパクパクラジオ「どっちのマクドナルドショー」</title>
+      <description>真の&quot;&quot;マクドナルド王&quot;&quot;はどっちだ！！！？？？</description>
+      <pubDate>Tue, 06 Nov 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/034/pak034.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/156620/</guid>
+    </item>
+    <item>
+      <title>【035】たかや・マンスーンのパクパクラジオ「TVに出れたんだ。君の調子はどうだい？」</title>
+      <description>たかやがTVに映りました</description>
+      <pubDate>Tue, 13 Nov 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/035/pak035.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/157064/</guid>
+    </item>
+    <item>
+      <title>【036】たかや・マンスーンのパクパクラジオ「モード反転！裏コード！ ザ・イベント！！」</title>
+      <description>ついに開催！！！！</description>
+      <pubDate>Tue, 20 Nov 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/036/pak036.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/157841/</guid>
+    </item>
+    <item>
+      <title>【037】たかや・マンスーンのパクパクラジオ「『体育ができない奴』とレッテル貼られたって」</title>
+      <description>僕たちは体育ができない</description>
+      <pubDate>Tue, 27 Nov 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/037/pak037.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/158290/</guid>
+    </item>
+    <item>
+      <title>【038】たかや・マンスーンのパクパクラジオ「最近、膀胱のようすがちょっとおかしいんだが。」</title>
+      <description>お風呂でオ○ッコすな！！！！！</description>
+      <pubDate>Tue, 04 Dec 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/038/pak038.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/159224/</guid>
+    </item>
+    <item>
+      <title>【039】たかや・マンスーンのパクパクラジオ「レッツゴーTKY」</title>
+      <description>†ザ・箸休め系っぽいラジオ†</description>
+      <pubDate>Tue, 11 Dec 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/039/pak039.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/160982/</guid>
+    </item>
+    <item>
+      <title>【040】たかや・マンスーンのパクパクラジオ「DAN DAN 心開かれてく」</title>
+      <description>俺たちのラジオはこれからだ！</description>
+      <pubDate>Tue, 18 Dec 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/040/pak040.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/161473/</guid>
+    </item>
+    <item>
+      <title>【041】たかや・マンスーンのパクパクラジオ「クリスマスに誰もいませんよ？」</title>
+      <description>俺たちのラジオはこれからだ！</description>
+      <pubDate>Tue, 25 Dec 2018 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/041/pak041.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/161722/</guid>
+    </item>
+    <item>
+      <title>【042】たかや・マンスーンのパクパクラジオ「大丈夫だぁ」</title>
+      <description>僕は大丈夫。今はそう言える。</description>
+      <pubDate>Tue, 08 Jan 2019 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/042/pak042.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/162620/</guid>
+    </item>
+    <item>
+      <title>【043】たかや・マンスーンのパクパクラジオ「四角カクカク発明前夜の」</title>
+      <description>大儲けします。</description>
+      <pubDate>Tue, 15 Jan 2019 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/043/pak043.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/163411/</guid>
+    </item>
+    <item>
+      <title>【044】たかや・マンスーンのパクパクラジオ「いつか聴いた音楽みたいに」</title>
+      <description>青春時代に聴いてた音楽について</description>
+      <pubDate>Tue, 22 Jan 2019 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/044/pak044.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/163681/</guid>
+    </item>
+    <item>
+      <title>【045】たかや・マンスーンのパクパクラジオ「夜回りエロマンガ先生」</title>
+      <description>♡</description>
+      <pubDate>Tue, 29 Jan 2019 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/045/pak045.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/164805/</guid>
+    </item>
+    <item>
+      <title>【046】たかや・マンスーンのパクパクラジオ「これからの原宿さんの話をしよう」</title>
+      <description>原宿さんに記事の秘密を聞きました。</description>
+      <pubDate>Tue, 05 Feb 2019 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/046/pak046.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/165354/</guid>
+    </item>
+    <item>
+      <title>【047】たかや・マンスーンのパクパクラジオ「ハローたかやグッバイ」</title>
+      <description>いつかは誰かと言う　セイ・ハローグッバイ</description>
+      <pubDate>Tue, 12 Feb 2019 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/047/pak047.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/165993/</guid>
+    </item>
+    <item>
+      <title>【047】たかや・マンスーンのパクパクラジオ「ハローたかやグッバイ」</title>
+      <description>いつかは誰かと言う　セイ・ハローグッバイ</description>
+      <pubDate>Tue, 12 Feb 2019 00:00:02 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/047-2/pak047-2.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/165993/</guid>
+    </item>
+    <item>
+      <title>【048】たかや・マンスーンのパクパクラジオ「ヤマヘススメ」</title>
+      <description>あと2回。</description>
+      <pubDate>Tue, 19 Feb 2019 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/048/pak048.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/166497/</guid>
+    </item>
+    <item>
+      <title>【終】たかや・マンスーンのパクパクラジオ「10年後、また出会えるのを信じて」</title>
+      <description>よっしゃぁぁぁッッ</description>
+      <pubDate>Tue, 26 Feb 2019 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/pakupaku/049/pak049.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/167046/</guid>
+    </item>
+  </channel>
+                          
+</rss>
