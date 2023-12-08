@@ -220,6 +220,7 @@ class TagHandler:
         return True
     
     def update(self):
+        print('Updating ' + self._tag + '...')
         continue_flag = True
         page = 1
         while continue_flag is True:
