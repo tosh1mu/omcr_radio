@@ -163,6 +163,8 @@ class ArticleList:
                 date = dt.strptime(box.select_one('div[class="date"]').text, '%Y.%m.%d')
                 title = box.select_one('div[class="title"]').select_one("a").text
                 link = box.select_one('div[class="title"]').find('a').get('href')
+                if link[-1] != "/":
+                    link = link + "/"
                 links.append((category, date, title, link))
         print(str(len(links)) + ' link(s) found from ' + urllib.parse.unquote(self._page_url) + '.')
         return links
