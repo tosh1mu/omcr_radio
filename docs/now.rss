@@ -728,6 +728,13 @@
       <enclosure url="https://omocoro.heteml.net/radio/watch/watch100.mp3" type="audio/mpeg"/>
       <guid isPermaLink="True">https://omocoro.jp/radio/495382/</guid>
     </item>
+    <item>
+      <title>ニュース！オモコロウォッチ！101「ガチ」</title>
+      <description>オモコロ編集部の3人が気になるニュースについて語ります。聞いても社会のことは何も知れません。</description>
+      <pubDate>Sun, 12 Jan 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/watch/watch101.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/496636/</guid>
+    </item>
   </channel>
                           
 </rss>
