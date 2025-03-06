@@ -160,6 +160,8 @@ class ArticleList:
         if len(boxes) > 0:
             for box in boxes:
                 category = box.select_one('div[class="category"]').select_one("span").text
+                if category != "ラジオ":
+                    continue
                 date = dt.strptime(box.select_one('div[class="date"]').text, '%Y.%m.%d')
                 title = box.select_one('div[class="title"]').select_one("a").text
                 link = box.select_one('div[class="title"]').find('a').get('href')
