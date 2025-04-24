@@ -1,0 +1,493 @@
+<?xml version="1.0" ?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  
+            
+  <channel>
+    
+                
+    <title>Fura Koto</title>
+    
+                
+    <itunes:owner>
+      
+                    
+      <itunes:email>namikibashi1987@gmail.com</itunes:email>
+      
+                
+    </itunes:owner>
+    
+                
+    <itunes:author>Namikibashi</itunes:author>
+    
+                
+    <description>Just personal use.</description>
+    
+                
+    <itunes:image href="https://tosh1mu.github.io/omcr_radio/img/furakoto_1400.png"/>
+    
+                
+    <language>ja-jp</language>
+    
+                
+    <link>https://omocoro.jp/tag/フラコト</link>
+    
+            
+    <item>
+      <title>【01】店長・リックェのフラコト「新ラジオ・フラスコの中の理はじまります」</title>
+      <description>英語名は Reason in the Flask です。</description>
+      <pubDate>Wed, 05 Jan 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/001.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/325705/</guid>
+    </item>
+    <item>
+      <title>【02】店長・リックェのフラコト「君のやる気スイッチはタクティルスイッチ？」</title>
+      <description>それともロータリースイッチ？</description>
+      <pubDate>Wed, 12 Jan 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/002.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/326387/</guid>
+    </item>
+    <item>
+      <title>【03】店長・リックェのフラコト「呪術・ヘルペイ・金枝篇」</title>
+      <description>地獄ってだいぶインフレ進んでると思う</description>
+      <pubDate>Wed, 19 Jan 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/003.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/326575/</guid>
+    </item>
+    <item>
+      <title>【06】店長・リックェのフラコト「ゲスト：モンゴルナイトフィーバー・ジンクスショップへようこそ」</title>
+      <description>ゲスト：モンゴルナイフ、山口むつお、ヤスミノ</description>
+      <pubDate>Wed, 09 Feb 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/un01.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/327599/</guid>
+    </item>
+    <item>
+      <title>【04】店長・リックェのフラコト「機能的で美しいフォントの歴史」</title>
+      <description>Akzidenz Grotesk（アクチデンツ・グロテスク）</description>
+      <pubDate>Wed, 26 Jan 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/004.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/328147/</guid>
+    </item>
+    <item>
+      <title>【05】店長・リックェのフラコト「あなたはポテトをどう量産する？」</title>
+      <description>もしも、ポテト工場の立ち上げを一任されたら……</description>
+      <pubDate>Wed, 02 Feb 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/005.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/328311/</guid>
+    </item>
+    <item>
+      <title>【07】店長・リックェのフラコト「選挙スタッフのおやつは500円まで」</title>
+      <description>お便りをいっぱい読みました</description>
+      <pubDate>Wed, 16 Feb 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/007.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/330015/</guid>
+    </item>
+    <item>
+      <title>【08】店長・リックェのフラコト「僕らのブレイン・シャット・ダウン」</title>
+      <description>自分のパラメータが2段階低下するジャンル</description>
+      <pubDate>Wed, 23 Feb 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/008.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/331480/</guid>
+    </item>
+    <item>
+      <title>【09】店長・リックェのフラコト「店長は早く人間になりたい」</title>
+      <description>薄皮が1枚貼り付いた筒</description>
+      <pubDate>Wed, 02 Mar 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/009.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/331515/</guid>
+    </item>
+    <item>
+      <title>【10】店長・リックェのフラコト「ない博物館・黄瀬鏡花記念館」</title>
+      <description>黄瀬鏡花は5人兄弟の四男として生まれました</description>
+      <pubDate>Wed, 09 Mar 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/010.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/334126/</guid>
+    </item>
+    <item>
+      <title>【11】店長・リックェのフラコト「就活グループワーク突破術＆プロポーズを蹴った話」</title>
+      <description>就活生の皆さん必聴です</description>
+      <pubDate>Wed, 16 Mar 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/011.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/335058/</guid>
+    </item>
+    <item>
+      <title>【12】店長・リックェのフラコト「D.E.A.D 死後、個人データとCG・AIを用いてあなたの『復活』を許可しますか？」</title>
+      <description>きみはにんげんそれともロボット？</description>
+      <pubDate>Wed, 23 Mar 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/012.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/336689/</guid>
+    </item>
+    <item>
+      <title>【13】店長・リックェのフラコト「機械学習で『コメディアンNEO』は育成できるのか？」</title>
+      <description>フラコトは、大喜利アルゴリズムの「実験体」を募集しています</description>
+      <pubDate>Wed, 30 Mar 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/013.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/337589/</guid>
+    </item>
+    <item>
+      <title>【14】店長・リックェのフラコト「営業の想像するエンジニアとエンジニアの想像する営業」</title>
+      <description>そろばんずくで生きていくぜ！</description>
+      <pubDate>Wed, 06 Apr 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/014.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/338807/</guid>
+    </item>
+    <item>
+      <title>【15】店長・リックェのフラコト「人におすすめできない趣味」</title>
+      <description>これはワインです</description>
+      <pubDate>Wed, 13 Apr 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/015.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/339733/</guid>
+    </item>
+    <item>
+      <title>【16】店長・リックェのフラコト「直前楽屋トーク・クロコダイルの未来」</title>
+      <description>しゃべってると心配になってくるな</description>
+      <pubDate>Wed, 20 Apr 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/016.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/340936/</guid>
+    </item>
+    <item>
+      <title>【17】店長・リックェのフラコト「二日酔いとトサキント」</title>
+      <description>魚の脳は陸上では役に立たない</description>
+      <pubDate>Wed, 27 Apr 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/017.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/341830/</guid>
+    </item>
+    <item>
+      <title>【18】店長・リックェのフラコト「でっけぇ石のお金ってなんででっけぇの？」</title>
+      <description>マンモス肉のキログラム原器じゃん！</description>
+      <pubDate>Wed, 04 May 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/018.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/342379/</guid>
+    </item>
+    <item>
+      <title>【19】店長・リックェのフラコト「フラコトは懺悔室でもからくりビデオレターでもありません」</title>
+      <description>世界のバグみたいになってるじゃん</description>
+      <pubDate>Wed, 11 May 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/019.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/343376/</guid>
+    </item>
+    <item>
+      <title>【20】店長・リックェのフラコト「店長の生まれた日は若葉かおる風にのって」</title>
+      <description>記憶のことを消え物って呼ぶ店長</description>
+      <pubDate>Wed, 18 May 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/020.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/344956/</guid>
+    </item>
+    <item>
+      <title>【21】店長・リックェのフラコト「ロマンプレイ」</title>
+      <description>ウォルフォート家の名にかけて</description>
+      <pubDate>Wed, 25 May 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/021.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/345117/</guid>
+    </item>
+    <item>
+      <title>【22】店長・リックェのフラコト「デザフェス」</title>
+      <description>人生はany%！いわずもがな！</description>
+      <pubDate>Wed, 01 Jun 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/022.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/346818/</guid>
+    </item>
+    <item>
+      <title>【23】店長・リックェのフラコト「ロールバック＆スペクター」</title>
+      <description>光速だって∞km/sじゃ無いんだから</description>
+      <pubDate>Wed, 08 Jun 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/023.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/347662/</guid>
+    </item>
+    <item>
+      <title>【24】店長・リックェのフラコト「左利きについて本気出して考えてみた」</title>
+      <description>君も左利きについて考えてみてよ　後で答え合わせしよう</description>
+      <pubDate>Wed, 15 Jun 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/024.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/348860/</guid>
+    </item>
+    <item>
+      <title>【25】店長・リックェのフラコト「店長怒りのメンタル回」</title>
+      <description>人生は多面指し</description>
+      <pubDate>Wed, 22 Jun 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/025.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/349524/</guid>
+    </item>
+    <item>
+      <title>【26】店長・リックェのフラコト「いただいたお便りをいっぱい読みました」</title>
+      <description>男爵位ってスベってないですか？</description>
+      <pubDate>Wed, 29 Jun 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/026.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/349785/</guid>
+    </item>
+    <item>
+      <title>【27】店長・リックェのフラコト「夏の夜の夢・マジの無策」</title>
+      <description>よくばりセット・女医ポリス</description>
+      <pubDate>Wed, 06 Jul 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/027.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/351486/</guid>
+    </item>
+    <item>
+      <title>【28】店長・リックェのフラコト「闇鍋に持っていく食材の正解は〇〇」</title>
+      <description>「電気を付けたら石狩鍋になってる」が本当に正解なの？</description>
+      <pubDate>Wed, 13 Jul 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/028.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/352503/</guid>
+    </item>
+    <item>
+      <title>【29】店長・リックェのフラコト「研究室の先輩とは何を話せばいいの？」</title>
+      <description>今日の収録は何があっても公開しますからね！</description>
+      <pubDate>Wed, 20 Jul 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/029.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/353161/</guid>
+    </item>
+    <item>
+      <title>【30】店長・リックェのフラコト「どうして鎖って発明されたの？」</title>
+      <description>鎖じゃなきゃダメっていうものの情報お待ちしてます</description>
+      <pubDate>Wed, 27 Jul 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/030.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/354359/</guid>
+    </item>
+    <item>
+      <title>【31】店長・リックェのフラコト「箱根ってなにもないの？」</title>
+      <description>まだ行ってない箱根の話をしています</description>
+      <pubDate>Wed, 03 Aug 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/031.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/354999/</guid>
+    </item>
+    <item>
+      <title>【32】店長・リックェのフラコト「店長ブラジリアン柔術を習うの巻」</title>
+      <description>格闘技って普段使わない筋肉使うじゃないですか</description>
+      <pubDate>Wed, 10 Aug 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/032.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/355686/</guid>
+    </item>
+    <item>
+      <title>【33】店長・リックェのフラコト「架空の世界に旅行へ行くなら何処がいい？」</title>
+      <description>箱根って、本当に本当に良いところですよね</description>
+      <pubDate>Wed, 17 Aug 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/033.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/356631/</guid>
+    </item>
+    <item>
+      <title>【34】店長・リックェのフラコト「夢と魔法の王国」</title>
+      <description>ランドの方に行ってきました</description>
+      <pubDate>Wed, 24 Aug 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/034.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/357336/</guid>
+    </item>
+    <item>
+      <title>【35】店長・リックェのフラコト「季節の話＝ダサいみたいな風潮」</title>
+      <description>お前らが考えた遊びでけが人が出た</description>
+      <pubDate>Wed, 31 Aug 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/035.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/358355/</guid>
+    </item>
+    <item>
+      <title>【36】店長・リックェのフラコト「店長がブレスオブファイアをやるそうです」</title>
+      <description>店長に次にやるRPG教えてあげてください</description>
+      <pubDate>Wed, 07 Sep 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/036.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/361087/</guid>
+    </item>
+    <item>
+      <title>【37】店長・リックェのフラコト「ネタバレあり！映画 NOPE 感想座談会」</title>
+      <description>ボンバーマンの話するの3週連続ですよね</description>
+      <pubDate>Wed, 14 Sep 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/037.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/362216/</guid>
+    </item>
+    <item>
+      <title>【38】店長・リックェのフラコト「スプラトゥーン3と無人島」</title>
+      <description>ブレスオブファイアはどうしたんですか</description>
+      <pubDate>Wed, 21 Sep 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/038.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/362953/</guid>
+    </item>
+    <item>
+      <title>【39】店長・リックェのフラコト「よく行く飲食チェーンはありますか？」</title>
+      <description>400年後に発掘されるラジオとして収録してます</description>
+      <pubDate>Wed, 28 Sep 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/039.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/363647/</guid>
+    </item>
+    <item>
+      <title>【40】店長・リックェのフラコト「スプラトゥーン × 文化祭でのメイド喫茶 × 大喜利論」</title>
+      <description>お金持ちは庭にピザ窯作ってもいい</description>
+      <pubDate>Wed, 05 Oct 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/040.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/365283/</guid>
+    </item>
+    <item>
+      <title>【41】店長・リックェのフラコト「大喜利ネイティブは養殖できない」</title>
+      <description>.52ガロン</description>
+      <pubDate>Wed, 12 Oct 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/041.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/366236/</guid>
+    </item>
+    <item>
+      <title>【42】店長・リックェのフラコト「お便り回：あつあつフード論争」</title>
+      <description>自分の気持を殺しなさい</description>
+      <pubDate>Wed, 19 Oct 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/042.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/367919/</guid>
+    </item>
+    <item>
+      <title>【43】店長・リックェのフラコト「明日来る胃もたれが真・胃もたれだったら今までの胃もたれはどうする？」</title>
+      <description>あなたならどうする・・・？ </description>
+      <pubDate>Wed, 26 Oct 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/043.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/368446/</guid>
+    </item>
+    <item>
+      <title>【44】店長・リックェのフラコト「ゲームマーケットに行ってきました」</title>
+      <description>大人になり海苔を自分で買おうとして初めて分かる「高い」と</description>
+      <pubDate>Wed, 02 Nov 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/044.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/369160/</guid>
+    </item>
+    <item>
+      <title>【45】店長・リックェのフラコト「キショ松参戦！クリプケンシュタインの胃もたれ」</title>
+      <description>経験則が当たるって考え方自体、経験則だよね</description>
+      <pubDate>Wed, 09 Nov 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/045.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/369551/</guid>
+    </item>
+    <item>
+      <title>【46】店長・リックェのフラコト「ゲスト回・原宿 出張版・記憶」</title>
+      <description>AA01 辛味チキン</description>
+      <pubDate>Wed, 16 Nov 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/046.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/370317/</guid>
+    </item>
+    <item>
+      <title>【47】店長・リックェのフラコト「ピサの斜塔と『斬新で面白い写真』を撮る方法」</title>
+      <description>キミは斜塔と真っ直ぐ向き合えるか？</description>
+      <pubDate>Wed, 23 Nov 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/047.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/371372/</guid>
+    </item>
+    <item>
+      <title>【48】店長・リックェのフラコト「解答編・ピサの斜塔と『斬新で面白い写真』を撮る方法」</title>
+      <description>キミの予想は”絶対に”当たらない</description>
+      <pubDate>Wed, 30 Nov 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/048.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/372518/</guid>
+    </item>
+    <item>
+      <title>【49】店長・リックェのフラコト「起業するなら何したい？」</title>
+      <description>トリキのメガシャンパン</description>
+      <pubDate>Wed, 07 Dec 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/049.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/373914/</guid>
+    </item>
+    <item>
+      <title>【50】店長・リックェのフラコト「我々は頭が良くありません」</title>
+      <description>9人漏れてはりますから</description>
+      <pubDate>Wed, 14 Dec 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/050.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/374937/</guid>
+    </item>
+    <item>
+      <title>【51】店長・リックェのフラコト「ガムトーク：神社」</title>
+      <description>2つに1つで悩んだときってみんなどうしてんの？</description>
+      <pubDate>Wed, 21 Dec 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/051.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/376308/</guid>
+    </item>
+    <item>
+      <title>【52】店長・リックェのフラコト「靴の試着がめんどくさい」</title>
+      <description>手戻りが多いので</description>
+      <pubDate>Wed, 28 Dec 2022 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/052.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/377659/</guid>
+    </item>
+    <item>
+      <title>【53】店長・リックェのフラコト「2022年のフラコトを振り返る」</title>
+      <description>最後まで聞いても爆発とか本当に入りませんからね？</description>
+      <pubDate>Wed, 04 Jan 2023 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/053.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/378069/</guid>
+    </item>
+    <item>
+      <title>【54】店長・リックェのフラコト「人生は宝くじ」</title>
+      <description>身の丈って伸びるからね</description>
+      <pubDate>Wed, 11 Jan 2023 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/054.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/378609/</guid>
+    </item>
+    <item>
+      <title>【55】店長・リックェのフラコト「The there（そのあそこ）」</title>
+      <description>言葉の海を汚染するな</description>
+      <pubDate>Wed, 18 Jan 2023 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/055.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/379283/</guid>
+    </item>
+    <item>
+      <title>【56】店長・リックェのフラコト「悪手」</title>
+      <description>風呂はこたつの下位互換</description>
+      <pubDate>Wed, 25 Jan 2023 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/056.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/380529/</guid>
+    </item>
+    <item>
+      <title>【57】店長・リックェのフラコト「新コーナー：オレが先だ」</title>
+      <description>みんな〜！できたよ〜！！</description>
+      <pubDate>Wed, 01 Feb 2023 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/057.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/382390/</guid>
+    </item>
+    <item>
+      <title>【58】店長・リックェのフラコト「犬を飼う、お気に入りを消す、殺し合いの螺旋から降りる」</title>
+      <description>シュプールーーー</description>
+      <pubDate>Wed, 08 Feb 2023 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/058.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/383665/</guid>
+    </item>
+    <item>
+      <title>【59】店長・リックェのフラコト「リックェ40歳になる」</title>
+      <description>まだなってない</description>
+      <pubDate>Wed, 15 Feb 2023 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/059.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/384546/</guid>
+    </item>
+    <item>
+      <title>【60】店長・リックェのフラコト「鍵アカってどうなの大論争」</title>
+      <description>鍵アカって持ってるってバレること自体が損じゃない？</description>
+      <pubDate>Wed, 22 Feb 2023 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/060.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/385517/</guid>
+    </item>
+    <item>
+      <title>【61】店長・リックェのフラコト「もうやめないか、昔はよかった」</title>
+      <description>悪いことは言わんつけたまえ</description>
+      <pubDate>Wed, 01 Mar 2023 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/061.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/386805/</guid>
+    </item>
+    <item>
+      <title>【62】店長・リックェのフラコト「イベント：互いに素」</title>
+      <description>1年前の収録映像が見つかりました</description>
+      <pubDate>Wed, 08 Mar 2023 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/062.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/387647/</guid>
+    </item>
+    <item>
+      <title>【63】店長・リックェのフラコト「リックェはQOLの魔人だ」</title>
+      <description>バスタブで全てを完結させる魔人だ</description>
+      <pubDate>Wed, 15 Mar 2023 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/063.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/388784/</guid>
+    </item>
+    <item>
+      <title>【64】店長・リックェのフラコト「ラス2のラジオ」</title>
+      <description>訓告（こく）っちゃいなよ </description>
+      <pubDate>Wed, 22 Mar 2023 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/064.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/389932/</guid>
+    </item>
+    <item>
+      <title>【65終】店長・リックェのフラコト「汝、揚げシュウマイを dis るなかれ」</title>
+      <description>フラスコの中の暴（あばれ）</description>
+      <pubDate>Wed, 29 Mar 2023 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/flakoto/065.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/390414/</guid>
+    </item>
+  </channel>
+  
+        
+</rss>
