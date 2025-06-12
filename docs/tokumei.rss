@@ -1,26 +1,37 @@
 <?xml version="1.0" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-                              
+  
+            
   <channel>
-                                    
+    
+                
     <title>Tokumei Radio</title>
-                                    
+    
+                
     <itunes:owner>
-                                          
+      
+                    
       <itunes:email>namikibashi1987@gmail.com</itunes:email>
-                                      
+      
+                
     </itunes:owner>
-                                    
+    
+                
     <itunes:author>Namikibashi</itunes:author>
-                                    
+    
+                
     <description>Just personal use.</description>
-                                    
+    
+                
     <itunes:image href="https://tosh1mu.github.io/omcr_radio/img/tokumei_logo.jpg"/>
-                                    
+    
+                
     <language>ja-jp</language>
-                                    
+    
+                
     <link>https://omocoro.jp/tag/匿名ラジオ</link>
-                                
+    
+            
     <item>
       <title>【001】ARuFa・恐山の匿名ラジオ「キックボード」</title>
       <description>たぶん毎週木曜日に更新されますので、よろしくお願いします。</description>
@@ -3255,6 +3266,56 @@
       <enclosure url="https://omocoro.heteml.net/radio/tokumei/n460i.mp3" type="audio/mpeg"/>
       <guid isPermaLink="True">https://omocoro.jp/radio/513814/</guid>
     </item>
+    <item>
+      <title>【461】ARuFa・恐山の匿名ラジオ「人気のないものを大流行させるマーケティング方法を考えよう！」</title>
+      <description>ARuFa・恐山の匿名ラジオ。第461回は「人気のないものを大流行させるマーケティング方法を考えよう！」です。</description>
+      <pubDate>Thu, 01 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/tokumei/461o.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/514872/</guid>
+    </item>
+    <item>
+      <title>【462】ARuFa・恐山の匿名ラジオ「特別公開！収録前の雑談&amp;奇声集（GWで収録できなかったから！）」</title>
+      <description>ARuFa・恐山の匿名ラジオ。第462回は「特別公開！収録前の雑談&amp;奇声集（GWで収録できなかったから！）」です。</description>
+      <pubDate>Thu, 08 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/tokumei/46i2.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/515675/</guid>
+    </item>
+    <item>
+      <title>【463】ARuFa・恐山の匿名ラジオ「ARuFa考案！『言葉の表面張力ゲーム』で遊ぼう！（もうあったらごめん！）」</title>
+      <description>ARuFa・恐山の匿名ラジオ。第463回は「ARuFa考案！『言葉の表面張力ゲーム』で遊ぼう！（もうあったらごめん！）」です。</description>
+      <pubDate>Thu, 15 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/tokumei/s463h.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/517339/</guid>
+    </item>
+    <item>
+      <title>【464】ARuFa・恐山の匿名ラジオ「王様になったときのために『理想の側近』を考えよう！」</title>
+      <description>ARuFa・恐山の匿名ラジオ。第464回は「王様になったときのために『理想の側近』を考えよう！」です。</description>
+      <pubDate>Thu, 22 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/tokumei/is464.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/518155/</guid>
+    </item>
+    <item>
+      <title>【465】ARuFa・恐山の匿名ラジオ「『ひみつ道具何がいい？』みたいな会話の種をアップデートしよう！」</title>
+      <description>ARuFa・恐山の匿名ラジオ。第465回は「『ひみつ道具何がいい？』みたいな会話の種をアップデートしよう！」です。</description>
+      <pubDate>Thu, 29 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/tokumei/465ou.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/518795/</guid>
+    </item>
+    <item>
+      <title>【466】ARuFa・恐山の匿名ラジオ「風呂の出どき、LINEのやめどき…『ベストタイミング』大議論！」</title>
+      <description>ARuFa・恐山の匿名ラジオ。第466回は「風呂の出どき、LINEのやめどき…『ベストタイミング』大議論！」です。</description>
+      <pubDate>Thu, 05 Jun 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/tokumei/46d6.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/519587/</guid>
+    </item>
+    <item>
+      <title>【467】ARuFa・恐山の匿名ラジオ「忙しいARuFaが元気になりそうな話題を社内で募集しよう！」</title>
+      <description>ARuFa・恐山の匿名ラジオ。第467回は「忙しいARuFaが元気になりそうな話題を社内で募集しよう！」です。</description>
+      <pubDate>Thu, 12 Jun 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/tokumei/46ay7.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/520936/</guid>
+    </item>
   </channel>
-                          
+  
+        
 </rss>

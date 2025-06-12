@@ -1,26 +1,37 @@
 <?xml version="1.0" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-                              
+  
+            
   <channel>
-                                    
+    
+                
     <title>Pakupaku Radio</title>
-                                    
+    
+                
     <itunes:owner>
-                                          
+      
+                    
       <itunes:email>namikibashi1987@gmail.com</itunes:email>
-                                      
+      
+                
     </itunes:owner>
-                                    
+    
+                
     <itunes:author>Namikibashi</itunes:author>
-                                    
+    
+                
     <description>Just personal use.</description>
-                                    
+    
+                
     <itunes:image href="https://tosh1mu.github.io/omcr_radio/img/pakupaku_1400.png"/>
-                                    
+    
+                
     <language>ja-jp</language>
-                                    
+    
+                
     <link>https://omocoro.jp/tag/パクパクラジオ</link>
-                                
+    
+            
     <item>
       <title>【001】たかや・マンスーンのパクパクラジオ「お互いのことを僕たちはまだ知らない」</title>
       <description>今週から&quot;たかや&quot;と&quot;マンスーン&quot;がラジオを始めます。</description>
@@ -379,5 +390,6 @@
       <guid isPermaLink="True">https://omocoro.jp/radio/167046/</guid>
     </item>
   </channel>
-                          
+  
+        
 </rss>

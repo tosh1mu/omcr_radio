@@ -40,6 +40,7 @@ def process_tag(tag: str, status: str) -> List[omcr.Episode]:
 
 def create_podcast(
     title: str,
+    abbreviation: str,
     description: str,
     logo_filename: str,
     tag_list: List[str],
@@ -47,7 +48,7 @@ def create_podcast(
 ) -> None:
     img_href = f"{Config.IMG_SRC}{logo_filename}"
     channel_url = f"https://omocoro.jp/tag/{tag_list[0]}"
-    rss_path = Path(Config.OUTPUT_DIR) / f"{tag_list[0]}.rss"
+    rss_path = Path(Config.OUTPUT_DIR) / f"{abbreviation}.rss"
 
     channel_podcast = podcast.Podcast(
         title,
@@ -69,6 +70,7 @@ def create_podcast(
 
     try:
         channel_podcast.create_rss(str(rss_path))
+        print(f'Created/Updated RSS file: {rss_path}')
     except podcast.RSSGenerationError as e:
         print(f'Warning: Failed to create RSS for {title}: {str(e)}')
 
@@ -85,6 +87,7 @@ def main() -> None:
             
             create_podcast(
                 row['title'],
+                row['abbreviation'],
                 row['description'],
                 row['logo_filename'],
                 tag_list,

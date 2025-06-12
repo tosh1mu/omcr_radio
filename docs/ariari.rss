@@ -1,26 +1,37 @@
 <?xml version="1.0" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-                              
+  
+            
   <channel>
-                                    
+    
+                
     <title>Ari Ari</title>
-                                    
+    
+                
     <itunes:owner>
-                                          
+      
+                    
       <itunes:email>namikibashi1987@gmail.com</itunes:email>
-                                      
+      
+                
     </itunes:owner>
-                                    
+    
+                
     <itunes:author>Namikibashi</itunes:author>
-                                    
+    
+                
     <description>Just personal use.</description>
-                                    
+    
+                
     <itunes:image href="https://tosh1mu.github.io/omcr_radio/img/arispa_1400.png"/>
-                                    
+    
+                
     <language>ja-jp</language>
-                                    
+    
+                
     <link>https://omocoro.jp/tag/ありっちゃありアワー</link>
-                                
+    
+            
     <item>
       <title>原宿・おすしのありっちゃありアワー001「どっちつかずのラジオが始まりました」</title>
       <description>オモコロのラジオ番組が増えました。</description>
@@ -3206,6 +3217,56 @@
       <enclosure url="https://omocoro.heteml.net/radio/aribon/111/bon111.mp3" type="audio/mpeg"/>
       <guid isPermaLink="True">https://omocoro.jp/radio/513100/</guid>
     </item>
+    <item>
+      <title>ありっちゃありスパーク・梵112「グミサプリflow、そしてたべっこどうぶつと」</title>
+      <description>ぶってぇ仕事がやってきました</description>
+      <pubDate>Mon, 28 Apr 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/aribon/112/bon112.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/514379/</guid>
+    </item>
+    <item>
+      <title>ありっちゃありスパーク・梵113「所沢で喫煙がバレた男の談話」</title>
+      <description>所沢エミテラスさんありがとーーーーー！！！！</description>
+      <pubDate>Mon, 05 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/aribon/113/bon113.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/515418/</guid>
+    </item>
+    <item>
+      <title>ありっちゃありスパーク・梵114「人間、矛盾を抱える者たち」</title>
+      <description>たま褒め重版決定ありがとーーーー！！！</description>
+      <pubDate>Mon, 12 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/aribon/114/bon114.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/516419/</guid>
+    </item>
+    <item>
+      <title>ありっちゃありスパーク・梵115「テントで寝るのだるい問題」</title>
+      <description>ぶつくさ言える内が花なのかも</description>
+      <pubDate>Mon, 19 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/aribon/115/bon115.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/517615/</guid>
+    </item>
+    <item>
+      <title>ありっちゃありスパーク・梵116「原宿さん、これエロいですか？とヨシタケシンスケ展の話」</title>
+      <description>いつの日か、月は僕を追いかけてこなくなった</description>
+      <pubDate>Mon, 26 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/aribon/116/bon116.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/518612/</guid>
+    </item>
+    <item>
+      <title>ありっちゃありスパーク・梵117「江ノ島グリーングリーンボウルの記憶」</title>
+      <description>「記憶」またやります！！</description>
+      <pubDate>Mon, 02 Jun 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/aribon/117/bon117.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/519377/</guid>
+    </item>
+    <item>
+      <title>ありっちゃありスパーク・梵118「凱旋！今じゃない企画室・室長！」</title>
+      <description>今じゃないからありっちゃありへの道</description>
+      <pubDate>Mon, 09 Jun 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/aribon/118/bon118.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/520408/</guid>
+    </item>
   </channel>
-                          
+  
+        
 </rss>

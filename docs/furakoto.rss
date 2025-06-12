@@ -1,26 +1,37 @@
 <?xml version="1.0" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-                              
+  
+            
   <channel>
-                                    
+    
+                
     <title>Fura Koto</title>
-                                    
+    
+                
     <itunes:owner>
-                                          
+      
+                    
       <itunes:email>namikibashi1987@gmail.com</itunes:email>
-                                      
+      
+                
     </itunes:owner>
-                                    
+    
+                
     <itunes:author>Namikibashi</itunes:author>
-                                    
+    
+                
     <description>Just personal use.</description>
-                                    
+    
+                
     <itunes:image href="https://tosh1mu.github.io/omcr_radio/img/furakoto_1400.png"/>
-                                    
+    
+                
     <language>ja-jp</language>
-                                    
+    
+                
     <link>https://omocoro.jp/tag/フラコト</link>
-                                
+    
+            
     <item>
       <title>【01】店長・リックェのフラコト「新ラジオ・フラスコの中の理はじまります」</title>
       <description>英語名は Reason in the Flask です。</description>
@@ -477,5 +488,6 @@
       <guid isPermaLink="True">https://omocoro.jp/radio/390414/</guid>
     </item>
   </channel>
-                          
+  
+        
 </rss>

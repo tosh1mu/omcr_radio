@@ -1,26 +1,37 @@
 <?xml version="1.0" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-                              
+  
+            
   <channel>
-                                    
+    
+                
     <title>Kama Miku</title>
-                                    
+    
+                
     <itunes:owner>
-                                          
+      
+                    
       <itunes:email>namikibashi1987@gmail.com</itunes:email>
-                                      
+      
+                
     </itunes:owner>
-                                    
+    
+                
     <itunes:author>Namikibashi</itunes:author>
-                                    
+    
+                
     <description>Just personal use.</description>
-                                    
+    
+                
     <itunes:image href="https://tosh1mu.github.io/omcr_radio/img/kamamiku_1400.png"/>
-                                    
+    
+                
     <language>ja-jp</language>
-                                    
+    
+                
     <link>https://omocoro.jp/tag/かまってみくのしん</link>
-                                
+    
+            
     <item>
       <title>【001】かまってみくのしん「ただいま、オモコロ。」</title>
       <description>【音量注意】新しくラジオ始めます！！よろしくお願いします！！</description>
@@ -3010,6 +3021,56 @@
       <enclosure url="https://omocoro.heteml.net/radio/00_kamamicu/03.mp3" type="audio/mpeg"/>
       <guid isPermaLink="True">https://omocoro.jp/radio/512586/</guid>
     </item>
+    <item>
+      <title>【04】かまみく「オモコロ杯に送る記事の書き方をマジメに考える回」</title>
+      <description>かまどとみくのしんのラジオです</description>
+      <pubDate>Fri, 25 Apr 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/00_kamamicu/04.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/513923/</guid>
+    </item>
+    <item>
+      <title>【05】かまみく「天気予報を読み聞かせする回」</title>
+      <description>かまどとみくのしんのラジオです</description>
+      <pubDate>Fri, 02 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/00_kamamicu/05.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/514986/</guid>
+    </item>
+    <item>
+      <title>【06】かまみく「感謝の値段」</title>
+      <description>かまどとみくのしんのラジオです</description>
+      <pubDate>Fri, 09 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/00_kamamicu/06.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/515974/</guid>
+    </item>
+    <item>
+      <title>【07】かまみく「1万8000円は可愛くてしょうがない」</title>
+      <description>かまどとみくのしんのラジオです</description>
+      <pubDate>Fri, 16 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/00_kamamicu/07.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/517428/</guid>
+    </item>
+    <item>
+      <title>【08】かまみく「みくのしんが脱税してるって！？」</title>
+      <description>かまどとみくのしんのラジオです</description>
+      <pubDate>Fri, 23 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/00_kamamicu/08.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/518265/</guid>
+    </item>
+    <item>
+      <title>【09】かまみく「みくのしんからお茶をもらうことはできない」</title>
+      <description>かまどとみくのしんのラジオです</description>
+      <pubDate>Fri, 30 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/00_kamamicu/09.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/519052/</guid>
+    </item>
+    <item>
+      <title>【10】かまみく「僕たちはどうすればよかったのだろう」</title>
+      <description>かまどとみくのしんのラジオです</description>
+      <pubDate>Fri, 06 Jun 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/00_kamamicu/10.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/519656/</guid>
+    </item>
   </channel>
-                          
+  
+        
 </rss>

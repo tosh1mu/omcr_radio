@@ -1,26 +1,37 @@
 <?xml version="1.0" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-                              
+  
+            
   <channel>
-                                    
+    
+                
     <title>MNF</title>
-                                    
+    
+                
     <itunes:owner>
-                                          
+      
+                    
       <itunes:email>namikibashi1987@gmail.com</itunes:email>
-                                      
+      
+                
     </itunes:owner>
-                                    
+    
+                
     <itunes:author>Namikibashi</itunes:author>
-                                    
+    
+                
     <description>Just personal use.</description>
-                                    
+    
+                
     <itunes:image href="https://tosh1mu.github.io/omcr_radio/img/mnf_logo.jpg"/>
-                                    
+    
+                
     <language>ja-jp</language>
-                                    
+    
+                
     <link>https://omocoro.jp/tag/モンゴルナイトフィーバー</link>
-                                
+    
+            
     <item>
       <title>【001】山口むつおとモンゴルナイフのモンゴルナイトフィーバー</title>
       <description>会社の上司と部下で突然ラジオを始めることになりました。</description>
@@ -1890,6 +1901,56 @@
       <enclosure url="https://omocoro.heteml.net/radio/mongol/257/20250419.mp3" type="audio/mpeg"/>
       <guid isPermaLink="True">https://omocoro.jp/radio/512966/</guid>
     </item>
+    <item>
+      <title>【258】ラジオ・モンゴルナイトフィーバー 「労働はなあ！化かし合いなんだよ」</title>
+      <description>気になる言葉のコーナー！</description>
+      <pubDate>Sat, 26 Apr 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/mongol/258/20250426.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/514301/</guid>
+    </item>
+    <item>
+      <title>【259】ラジオ・モンゴルナイトフィーバー 「みんな話したいことがあるんだ！」</title>
+      <description>外耳炎やら中耳炎やら</description>
+      <pubDate>Sat, 03 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/mongol/259/20250503.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/515210/</guid>
+    </item>
+    <item>
+      <title>【260】ラジオ・モンゴルナイトフィーバー 「お口に直接話しかけていま〜す」</title>
+      <description>よく見たらあるは「ない」のよ</description>
+      <pubDate>Sat, 10 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/mongol/260/20250510.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/516250/</guid>
+    </item>
+    <item>
+      <title>【261】ラジオ・モンゴルナイトフィーバー 「ヤスミノの隠れた特技」</title>
+      <description>イノシシ vs 山口</description>
+      <pubDate>Sat, 17 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/mongol/261/20250517.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/517473/</guid>
+    </item>
+    <item>
+      <title>【262】ラジオ・モンゴルナイトフィーバー 「しこう錯誤でやっていくラジオ」</title>
+      <description>鳥肌が止まらねえ！</description>
+      <pubDate>Sat, 24 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/mongol/262/20250524.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/518124/</guid>
+    </item>
+    <item>
+      <title>【263】ラジオ・モンゴルナイトフィーバー 「山口家で起こったバタフライエフェクト」</title>
+      <description>長崎最高すぎる</description>
+      <pubDate>Sat, 31 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/mongol/263/20250531.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/519154/</guid>
+    </item>
+    <item>
+      <title>【263】ラジオ・モンゴルナイトフィーバー 「緊急収録！本当にバズってしまうキャラクター誕生」</title>
+      <description>この世の中のブレイクスルーかもしれない</description>
+      <pubDate>Sat, 07 Jun 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/mongol/264/20250607.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/519684/</guid>
+    </item>
   </channel>
-                          
+  
+        
 </rss>

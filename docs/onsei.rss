@@ -1,26 +1,37 @@
 <?xml version="1.0" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-                              
+  
+            
   <channel>
-                                    
+    
+                
     <title>Onsei Housou</title>
-                                    
+    
+                
     <itunes:owner>
-                                          
+      
+                    
       <itunes:email>namikibashi1987@gmail.com</itunes:email>
-                                      
+      
+                
     </itunes:owner>
-                                    
+    
+                
     <itunes:author>Namikibashi</itunes:author>
-                                    
+    
+                
     <description>Just personal use.</description>
-                                    
+    
+                
     <itunes:image href="https://tosh1mu.github.io/omcr_radio/img/onsei_1400.png"/>
-                                    
+    
+                
     <language>ja-jp</language>
-                                    
+    
+                
     <link>https://omocoro.jp/tag/音声放送</link>
-                                
+    
+            
     <item>
       <title>【0】マンスーン・ヤスミノの音声放送「ここにタイトルを入れる」</title>
       <description>仮です</description>
@@ -1925,6 +1936,56 @@
       <enclosure url="https://omocoro.heteml.net/radio/kayouradio/272/272.mp3" type="audio/mpeg"/>
       <guid isPermaLink="True">https://omocoro.jp/radio/513094/</guid>
     </item>
+    <item>
+      <title>【273】マンスーン・ヤスミノの音声放送「習慣を守りすぎる人、未来を固定できない人」</title>
+      <description>ドラマ、海外かぶれ、できないこと</description>
+      <pubDate>Tue, 29 Apr 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/kayouradio/273/273.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/514508/</guid>
+    </item>
+    <item>
+      <title>【274】マンスーン・ヤスミノの音声放送「『ちいかわぽけっと』の果てに」</title>
+      <description>らむ屋敷、ちいぽけ</description>
+      <pubDate>Tue, 06 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/kayouradio/274/274.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/515234/</guid>
+    </item>
+    <item>
+      <title>【275】マンスーン・ヤスミノの音声放送「チケット代 2万円のライブに当選＆参加拒否」</title>
+      <description>マイブラのライブに当たった話</description>
+      <pubDate>Tue, 13 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/kayouradio/275/275.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/516895/</guid>
+    </item>
+    <item>
+      <title>【276】マンスーン・ヤスミノの音声放送「AIに『✅ これで決着をつけてくれ！！』と言われた話」</title>
+      <description>渇き、毛抜きの黄金期再突入、AIに『✅ これで決着をつけてくれ！！』と言われた話</description>
+      <pubDate>Tue, 20 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/kayouradio/276/276.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/517711/</guid>
+    </item>
+    <item>
+      <title>【277】マンスーン・ヤスミノの音声放送「巨頭オに対する違和感の正体」</title>
+      <description>巨頭オ、じじいの無知、あくせく</description>
+      <pubDate>Tue, 27 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/kayouradio/277/277.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/518476/</guid>
+    </item>
+    <item>
+      <title>【278】マンスーン・ヤスミノの音声放送「サイコロを投げ入れる器へのこだわり」</title>
+      <description>おおきちのボドゲ会、視力</description>
+      <pubDate>Tue, 03 Jun 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/kayouradio/278/278.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/519432/</guid>
+    </item>
+    <item>
+      <title>【279】マンスーン・ヤスミノの音声放送「君は『ありがとうございました』と言われて退店せずにいられるか？」</title>
+      <description>おじさんの病・子供の生活、近所のカフェ、電車賃無料VS食費無料</description>
+      <pubDate>Tue, 10 Jun 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/kayouradio/279/279.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/519690/</guid>
+    </item>
   </channel>
-                          
+  
+        
 </rss>

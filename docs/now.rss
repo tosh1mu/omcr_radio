@@ -1,26 +1,37 @@
 <?xml version="1.0" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-                              
+  
+            
   <channel>
-                                    
+    
+                
     <title>NOW</title>
-                                    
+    
+                
     <itunes:owner>
-                                          
+      
+                    
       <itunes:email>namikibashi1987@gmail.com</itunes:email>
-                                      
+      
+                
     </itunes:owner>
-                                    
+    
+                
     <itunes:author>Namikibashi</itunes:author>
-                                    
+    
+                
     <description>Just personal use.</description>
-                                    
+    
+                
     <itunes:image href="https://tosh1mu.github.io/omcr_radio/img/now_1400.png"/>
-                                    
+    
+                
     <language>ja-jp</language>
-                                    
+    
+                
     <link>https://omocoro.jp/tag/ニュース！オモコロウォッチ！</link>
-                                
+    
+            
     <item>
       <title>ニュース！オモコロウォッチ！特別編「キアヌたれ ～stand fmに過去ログ移行したのでよろしくね絵巻～」</title>
       <description>オモコロ編集部がニュースについて語るラジオです。</description>
@@ -833,6 +844,56 @@
       <enclosure url="https://omocoro.heteml.net/radio/watch/watch115.mp3" type="audio/mpeg"/>
       <guid isPermaLink="True">https://omocoro.jp/radio/512953/</guid>
     </item>
+    <item>
+      <title>ニュース！オモコロウォッチ！116「愉快さの金融工学 ～ポストモダン的シミュラークルの極致～」</title>
+      <description>オモコロ編集部の3人が気になるニュースについて語ります。聞いても社会のことは何も知れません。</description>
+      <pubDate>Sun, 27 Apr 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/watch/watch116.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/514305/</guid>
+    </item>
+    <item>
+      <title>ニュース！オモコロウォッチ！117「誰が為の卒煙支援エリア Season.1」</title>
+      <description>オモコロ編集部の3人が気になるニュースについて語ります。聞いても社会のことは何も知れません。</description>
+      <pubDate>Sun, 04 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/watch/watch117.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/515246/</guid>
+    </item>
+    <item>
+      <title>ニュース！オモコロウォッチ！118「カツ丼のアンチ？」</title>
+      <description>オモコロ編集部の3人が気になるニュースについて語ります。聞いても社会のことは何も知れません。</description>
+      <pubDate>Sun, 11 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/watch/watch118.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/516220/</guid>
+    </item>
+    <item>
+      <title>ニュース！オモコロウォッチ！119「【Mr.NO】否定を統べる王 現る」</title>
+      <description>オモコロ編集部の3人が気になるニュースについて語ります。聞いても社会のことは何も知れません。</description>
+      <pubDate>Sun, 18 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/watch/watch119.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/517513/</guid>
+    </item>
+    <item>
+      <title>ニュース！オモコロウォッチ！120「未来予知：マイナンバーカードはこうなる」</title>
+      <description>オモコロ編集部の3人が気になるニュースについて語ります。聞いても社会のことは何も知れません。</description>
+      <pubDate>Sun, 25 May 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/watch/watch120.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/518522/</guid>
+    </item>
+    <item>
+      <title>ニュース！オモコロウォッチ！121「大食のアーマミゴ」</title>
+      <description>オモコロ編集部の3人が気になるニュースについて語ります。聞いても社会のことは何も知れません。</description>
+      <pubDate>Sun, 01 Jun 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/watch/watch121.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/519186/</guid>
+    </item>
+    <item>
+      <title>ニュース！オモコロウォッチ！122「左手のない猿」</title>
+      <description>オモコロ編集部の3人が気になるニュースについて語ります。聞いても社会のことは何も知れません。</description>
+      <pubDate>Sun, 08 Jun 2025 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/watch/watch122.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/519713/</guid>
+    </item>
   </channel>
-                          
+  
+        
 </rss>
