@@ -1,37 +1,37 @@
 <?xml version="1.0" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   
-            
+    
   <channel>
     
-                
+        
     <title>MNF</title>
     
-                
+        
     <itunes:owner>
       
-                    
+            
       <itunes:email>namikibashi1987@gmail.com</itunes:email>
       
-                
+        
     </itunes:owner>
     
-                
+        
     <itunes:author>Namikibashi</itunes:author>
     
-                
+        
     <description>Just personal use.</description>
     
-                
+        
     <itunes:image href="https://tosh1mu.github.io/omcr_radio/img/mnf_logo.jpg"/>
     
-                
+        
     <language>ja-jp</language>
     
-                
+        
     <link>https://omocoro.jp/tag/モンゴルナイトフィーバー</link>
     
-            
+    
     <item>
       <title>【001】山口むつおとモンゴルナイフのモンゴルナイトフィーバー</title>
       <description>会社の上司と部下で突然ラジオを始めることになりました。</description>
@@ -2183,5 +2183,5 @@
     </item>
   </channel>
   
-        
+
 </rss>

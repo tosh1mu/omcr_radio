@@ -1,37 +1,37 @@
 <?xml version="1.0" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   
-            
+    
   <channel>
     
-                
+        
     <title>Manga Inu</title>
     
-                
+        
     <itunes:owner>
       
-                    
+            
       <itunes:email>namikibashi1987@gmail.com</itunes:email>
       
-                
+        
     </itunes:owner>
     
-                
+        
     <itunes:author>Namikibashi</itunes:author>
     
-                
+        
     <description>Just personal use.</description>
     
-                
+        
     <itunes:image href="https://tosh1mu.github.io/omcr_radio/img/mangainu_1400.png"/>
     
-                
+        
     <language>ja-jp</language>
     
-                
+        
     <link>https://omocoro.jp/tag/ラジオ漫画犬</link>
     
-            
+    
     <item>
       <title>凸ノ・カメントツのラジオ漫画犬001「漫画家らしき二人が漫画の話をするとも限らないやつ始まりますの巻」</title>
       <description>漫画家らしき二人が距離感を測りながら話します</description>
@@ -1721,5 +1721,5 @@
     </item>
   </channel>
   
-        
+
 </rss>

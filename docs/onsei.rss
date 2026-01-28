@@ -1,37 +1,37 @@
 <?xml version="1.0" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   
-            
+    
   <channel>
     
-                
+        
     <title>Onsei Housou</title>
     
-                
+        
     <itunes:owner>
       
-                    
+            
       <itunes:email>namikibashi1987@gmail.com</itunes:email>
       
-                
+        
     </itunes:owner>
     
-                
+        
     <itunes:author>Namikibashi</itunes:author>
     
-                
+        
     <description>Just personal use.</description>
     
-                
+        
     <itunes:image href="https://tosh1mu.github.io/omcr_radio/img/onsei_1400.png"/>
     
-                
+        
     <language>ja-jp</language>
     
-                
+        
     <link>https://omocoro.jp/tag/音声放送</link>
     
-            
+    
     <item>
       <title>【0】マンスーン・ヤスミノの音声放送「ここにタイトルを入れる」</title>
       <description>仮です</description>
@@ -2195,7 +2195,14 @@
       <enclosure url="https://omocoro.heteml.net/radio/kayouradio/310/310.mp3" type="audio/mpeg"/>
       <guid isPermaLink="True">https://omocoro.jp/radio/556864/</guid>
     </item>
+    <item>
+      <title>【311】マンスーン・ヤスミノの音声放送「マツモトキヨシ、ルーレットの罠」</title>
+      <description>ドラッグストアの話</description>
+      <pubDate>Tue, 27 Jan 2026 00:00:01 +0900</pubDate>
+      <enclosure url="https://omocoro.heteml.net/radio/kayouradio/311/311.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="True">https://omocoro.jp/radio/558177/</guid>
+    </item>
   </channel>
   
-        
+
 </rss>

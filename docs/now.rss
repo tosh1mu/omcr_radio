@@ -1,37 +1,37 @@
 <?xml version="1.0" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   
-            
+    
   <channel>
     
-                
+        
     <title>NOW</title>
     
-                
+        
     <itunes:owner>
       
-                    
+            
       <itunes:email>namikibashi1987@gmail.com</itunes:email>
       
-                
+        
     </itunes:owner>
     
-                
+        
     <itunes:author>Namikibashi</itunes:author>
     
-                
+        
     <description>Just personal use.</description>
     
-                
+        
     <itunes:image href="https://tosh1mu.github.io/omcr_radio/img/now_1400.png"/>
     
-                
+        
     <language>ja-jp</language>
     
-                
+        
     <link>https://omocoro.jp/tag/ニュース！オモコロウォッチ！</link>
     
-            
+    
     <item>
       <title>ニュース！オモコロウォッチ！特別編「キアヌたれ ～stand fmに過去ログ移行したのでよろしくね絵巻～」</title>
       <description>オモコロ編集部がニュースについて語るラジオです。</description>
@@ -1112,5 +1112,5 @@
     </item>
   </channel>
   
-        
+
 </rss>

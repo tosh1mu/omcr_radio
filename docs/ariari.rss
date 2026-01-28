@@ -1,37 +1,37 @@
 <?xml version="1.0" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   
-            
+    
   <channel>
     
-                
+        
     <title>Ari Ari</title>
     
-                
+        
     <itunes:owner>
       
-                    
+            
       <itunes:email>namikibashi1987@gmail.com</itunes:email>
       
-                
+        
     </itunes:owner>
     
-                
+        
     <itunes:author>Namikibashi</itunes:author>
     
-                
+        
     <description>Just personal use.</description>
     
-                
+        
     <itunes:image href="https://tosh1mu.github.io/omcr_radio/img/arispa_1400.png"/>
     
-                
+        
     <language>ja-jp</language>
     
-                
+        
     <link>https://omocoro.jp/tag/ありっちゃありアワー</link>
     
-            
+    
     <item>
       <title>原宿・おすしのありっちゃありアワー001「どっちつかずのラジオが始まりました」</title>
       <description>オモコロのラジオ番組が増えました。</description>
@@ -3492,5 +3492,5 @@
     </item>
   </channel>
   
-        
+
 </rss>

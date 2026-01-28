@@ -1,101 +1,131 @@
 # -*- coding: utf-8 -*-
-import pandas as pd
+from dataclasses import dataclass
 from pathlib import Path
-from typing import List, Tuple
+from typing import List
+
+import pandas as pd
+
 import omcr
 import podcast
 
+
+@dataclass(frozen=True)
 class Config:
-    IMG_SRC = "https://tosh1mu.github.io/omcr_radio/img/"
-    OWNER_EMAIL = "namikibashi1987@gmail.com"
-    AUTHOR = "Namikibashi"
-    DB_PATH = "omcr_db.xlsx"
-    OUTPUT_DIR = "docs"
+    img_src: str = "https://tosh1mu.github.io/omcr_radio/img/"
+    owner_email: str = "namikibashi1987@gmail.com"
+    author: str = "Namikibashi"
+    db_path: str = "omcr_db.xlsx"
+    output_dir: str = "docs"
 
-def load_channel_data() -> pd.DataFrame:
+
+@dataclass
+class Channel:
+    title: str
+    abbreviation: str
+    description: str
+    logo_filename: str
+    tags: List[str]
+    status: str
+
+    @classmethod
+    def from_row(cls, row: pd.Series) -> "Channel":
+        return cls(
+            title=row["title"],
+            abbreviation=row["abbreviation"],
+            description=row["description"],
+            logo_filename=row["logo_filename"],
+            tags=row["tags"].split(","),
+            status=row["status"],
+        )
+
+
+def load_channels(db_path: str) -> List[Channel]:
     try:
-        return pd.read_excel(Config.DB_PATH, sheet_name='channel', index_col=0)
+        df = pd.read_excel(db_path, sheet_name="channel", index_col=0)
+        return [Channel.from_row(row) for _, row in df.iterrows()]
     except Exception as e:
-        raise RuntimeError(f'Failed to load channel data: {str(e)}')
+        raise RuntimeError(f"Failed to load channel data: {e}") from e
 
-def process_tag(tag: str, status: str) -> List[omcr.Episode]:
+
+def collect_episodes(tag: str, status: str) -> List[omcr.Episode]:
     tag_handler = omcr.TagHandler(tag)
-    
+
     try:
         if tag_handler.load():
-            if status == 'active':
+            if status == "active":
                 tag_handler.update()
         else:
             tag_handler.refresh()
-        
+
         tag_handler.save()
-        
-        episodes = []
-        for article in tag_handler.articles:
-            episodes.extend(article.get_episodes())
-        return episodes
+
+        return [
+            episode
+            for article in tag_handler.articles
+            for episode in article.get_episodes()
+        ]
     except Exception as e:
-        print(f'Warning: Failed to process tag {tag}: {str(e)}')
+        print(f"Warning: Failed to process tag {tag}: {e}")
         return []
 
-def create_podcast(
-    title: str,
-    abbreviation: str,
-    description: str,
-    logo_filename: str,
-    tag_list: List[str],
-    episodes: List[omcr.Episode]
-) -> None:
-    img_href = f"{Config.IMG_SRC}{logo_filename}"
-    channel_url = f"https://omocoro.jp/tag/{tag_list[0]}"
-    rss_path = Path(Config.OUTPUT_DIR) / f"{abbreviation}.rss"
 
-    channel_podcast = podcast.Podcast(
-        title,
-        Config.OWNER_EMAIL,
-        Config.AUTHOR,
-        description,
+def build_podcast(channel: Channel, episodes: List[omcr.Episode], config: Config) -> podcast.Podcast:
+    img_href = f"{config.img_src}{channel.logo_filename}"
+    channel_url = f"https://omocoro.jp/tag/{channel.tags[0]}"
+
+    pod = podcast.Podcast(
+        channel.title,
+        config.owner_email,
+        config.author,
+        channel.description,
         img_href,
-        channel_url
+        channel_url,
     )
 
     for episode in episodes:
-        channel_podcast.add_episode(
+        pod.add_episode(
             episode.title,
             episode.description,
             episode.pub_date,
             episode.mp3_url,
-            episode.article_url
+            episode.article_url,
         )
 
+    return pod
+
+
+def save_podcast(pod: podcast.Podcast, channel: Channel, config: Config) -> None:
+    rss_path = Path(config.output_dir) / f"{channel.abbreviation}.rss"
+
     try:
-        channel_podcast.create_rss(str(rss_path))
-        print(f'Created/Updated RSS file: {rss_path}')
+        pod.create_rss(str(rss_path))
+        print(f"Created/Updated RSS file: {rss_path}")
     except podcast.RSSGenerationError as e:
-        print(f'Warning: Failed to create RSS for {title}: {str(e)}')
+        print(f"Warning: Failed to create RSS for {channel.title}: {e}")
+
+
+def process_channel(channel: Channel, config: Config) -> None:
+    episodes = [
+        episode
+        for tag in channel.tags
+        for episode in collect_episodes(tag, channel.status)
+    ]
+
+    pod = build_podcast(channel, episodes, config)
+    save_podcast(pod, channel, config)
+
 
 def main() -> None:
+    config = Config()
+
     try:
-        channel_df = load_channel_data()
-        
-        for _, row in channel_df.iterrows():
-            tag_list = row['tags'].split(',')
-            episodes = []
-            
-            for tag in tag_list:
-                episodes.extend(process_tag(tag, row['status']))
-            
-            create_podcast(
-                row['title'],
-                row['abbreviation'],
-                row['description'],
-                row['logo_filename'],
-                tag_list,
-                episodes
-            )
+        channels = load_channels(config.db_path)
+        for channel in channels:
+            process_channel(channel, config)
     except Exception as e:
-        print(f'Error: {str(e)}')
+        print(f"Error: {e}")
         raise
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
