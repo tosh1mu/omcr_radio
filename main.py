@@ -101,6 +101,7 @@ def build_podcast(channel: Channel, episodes: List[omcr.Episode], config: Config
                 episode.pub_date,
                 episode.mp3_url,
                 episode.article_url,
+                episode.duration,
             )
         except Exception as e:
             print(f"Warning: Failed to add episode '{episode.title}': {e}")

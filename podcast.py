@@ -46,6 +46,7 @@ class EpisodeInfo:
     pub_date: dt
     mp3_url: str
     article_url: str
+    duration: int = 0  # 再生時間（秒）、0は不明
 
 
 class Podcast:
@@ -95,6 +96,7 @@ class Podcast:
         ep_pubdate: dt,
         ep_mp3_url: str,
         article_url: str,
+        duration: int = 0,
     ) -> None:
         episode = EpisodeInfo(
             title=ep_title,
@@ -102,6 +104,7 @@ class Podcast:
             pub_date=ep_pubdate,
             mp3_url=ep_mp3_url,
             article_url=article_url,
+            duration=duration,
         )
         self._episodes.append(episode)
         self._add_episode_to_dom(episode)
@@ -120,6 +123,13 @@ class Podcast:
         enclosure.setAttribute("url", episode.mp3_url)
         enclosure.setAttribute("type", "audio/mpeg")
         item.appendChild(enclosure)
+
+        if episode.duration > 0:
+            h = episode.duration // 3600
+            m = (episode.duration % 3600) // 60
+            s = episode.duration % 60
+            duration_str = f"{h:02d}:{m:02d}:{s:02d}"
+            item.appendChild(self._create_element("itunes:duration", duration_str))
 
         guid = self._create_element("guid", episode.article_url)
         guid.setAttribute("isPermaLink", "True")
