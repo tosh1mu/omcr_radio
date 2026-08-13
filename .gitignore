@@ -1,1 +1,7 @@
 ./_archive/*
+# Python
+__pycache__/
+*.pyc
+
+# 仮想環境
+myenv/
