@@ -1,4 +1,6 @@
-./_archive/*
+# アーカイブ（旧実装・旧データ。現行コードからの参照なし）
+_archive/
+
 # Python
 __pycache__/
 *.pyc
